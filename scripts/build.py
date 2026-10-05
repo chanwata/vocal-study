@@ -52,6 +52,14 @@ for r in recordings:
             exercise=lesson['exercise'], silent=lesson['silent'], pitfall='聞こえた表現から、歌手の意図や身体の使い方を断定しない。',
             question=lesson['question'])
 
+guides = [json.loads(line) for line in (ROOT / 'src/recording_guides.jsonl').read_text().splitlines() if line.strip()]
+guide_by_id = {g['id']: g for g in guides}
+assert len(guides) == len(guide_by_id) == len(recordings) == 42
+assert set(guide_by_id) == {r['id'] for r in recordings}
+assert all(g['scene'] and len(g['points']) == 3 and all(g['points']) for g in guides)
+for r in recordings:
+    r.update(scene=guide_by_id[r['id']]['scene'], points=guide_by_id[r['id']]['points'])
+
 profiles = [json.loads(line) for line in (ROOT / 'src/artist_profiles.jsonl').read_text().splitlines() if line.strip()]
 engineering = json.loads((ROOT / 'src/engineering_experiments.json').read_text())
 profile_by_name = {a['name']: a for a in profiles}

@@ -42,6 +42,26 @@ test('every featured artist has substantial voice and production notes', () => {
   assert.ok(course.artists.every(a => ['bio', 'voice', 'phrasing', 'production', 'engineering'].reduce((n, key) => n + a[key].length, 0) > 260));
 });
 
+test('all 42 recordings have their own scene and three listening cues', () => {
+  const guides = fs.readFileSync(path.join(root, 'src/recording_guides.jsonl'), 'utf8').trim().split('\n').map(JSON.parse);
+  assert.equal(guides.length, 42);
+  assert.equal(new Set(guides.map(g => g.id)).size, 42);
+  for (const recording of course.recordings) {
+    assert.ok(recording.scene.length >= 30, recording.id);
+    assert.equal(recording.points.length, 3, recording.id);
+    assert.ok(recording.points.every(p => p.length >= 16), recording.id);
+    assert.deepEqual(recording.points, guides.find(g => g.id === recording.id).points);
+  }
+});
+
+test('lesson recordings render on the page without nested disclosures', () => {
+  const app = fs.readFileSync(path.join(root, 'src/app.js'), 'utf8');
+  assert.match(app, /<section class="track-card"/);
+  assert.match(app, /r\.points\.map/);
+  assert.ok(!app.includes('<details class="track-card"'));
+  assert.ok(!app.includes('<details class="artist-inline"'));
+});
+
 test('build embeds the course and contains no unfilled placeholders', () => {
   assert.match(html, /const COURSE = /);
   assert.match(html, /VOCAL LISTENING LAB/);
