@@ -52,13 +52,15 @@ for r in recordings:
             exercise=lesson['exercise'], silent=lesson['silent'], pitfall='聞こえた表現から、歌手の意図や身体の使い方を断定しない。',
             question=lesson['question'])
 
-artist_bios = {
-    'Sam Cooke': 'Soul Stirrersでの活動を経て、ポップの分野で知られるようになった歌手・ソングライター。1957年の「You Send Me」は、その転機をたどる入口になる。',
-    'Aretha Franklin': 'ソウルを代表する歌手。1987年、女性として初めてRock & Roll Hall of Fame入り。ここでは「Respect」の主声と応答する声を聴く。',
-    'Billie Holiday': 'ジャズ歌唱の歴史に大きな足跡を残した歌手。人生の出来事だけで歌を説明せず、言葉と伴奏の拍との関係を追う。'
-}
-artists = [dict(name=name, bio=artist_bios.get(name, ''), recordingIds=[r['id'] for r in recordings if r['artist'] == name])
-           for name in dict.fromkeys(r['artist'] for r in recordings)]
+profiles = [json.loads(line) for line in (ROOT / 'src/artist_profiles.jsonl').read_text().splitlines() if line.strip()]
+engineering = json.loads((ROOT / 'src/engineering_experiments.json').read_text())
+profile_by_name = {a['name']: a for a in profiles}
+names = list(dict.fromkeys(r['artist'] for r in recordings))
+assert len(profiles) == len(profile_by_name) == len(names) == 42
+assert set(profile_by_name) == set(names)
+assert set(engineering) == set(names)
+assert all(all(a.get(key) for key in ('bio', 'voice', 'phrasing', 'production', 'listen')) for a in profiles)
+artists = [dict(**profile_by_name[name], engineering=engineering[name], recordingIds=[r['id'] for r in recordings if r['artist'] == name]) for name in names]
 
 comparisons = []
 comparison_block = section('## 7. 聴き比べページの6組', '## 8.')

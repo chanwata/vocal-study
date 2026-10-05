@@ -29,6 +29,19 @@ test('Spotify candidates and search fallbacks have valid destinations', () => {
   assert.equal(course.recordings.find(r => r.id === 'rec-040').spotifyId, null);
 });
 
+test('every featured artist has substantial voice and production notes', () => {
+  assert.equal(course.artists.length, 42);
+  assert.deepEqual(new Set(course.artists.map(a => a.name)), new Set(course.recordings.map(r => r.artist)));
+  for (const artist of course.artists) {
+    for (const key of ['bio', 'voice', 'phrasing', 'production', 'engineering', 'listen']) {
+      assert.ok(artist[key].length >= 20, `${artist.name}: ${key}`);
+    }
+    if (artist.sourceUrl) assert.match(artist.sourceUrl, /^https:\/\//);
+    assert.ok(artist.recordingIds.length > 0);
+  }
+  assert.ok(course.artists.every(a => ['bio', 'voice', 'phrasing', 'production', 'engineering'].reduce((n, key) => n + a[key].length, 0) > 260));
+});
+
 test('build embeds the course and contains no unfilled placeholders', () => {
   assert.match(html, /const COURSE = /);
   assert.match(html, /VOCAL LISTENING LAB/);
