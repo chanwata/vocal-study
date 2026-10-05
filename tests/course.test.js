@@ -89,7 +89,7 @@ test('lesson cards show matching YouTube thumbnails and retain Spotify links', (
   vm.runInNewContext(fn, ctx);
   const direct = ctx.audioBox(course.recordings.find(r => r.id === 'rec-020'));
   assert.match(direct, /data-youtube="A3adFWKE9JE"/);
-  assert.match(direct, /i\.ytimg\.com\/vi\/A3adFWKE9JE\/hqdefault\.jpg/);
+  assert.match(direct, /img\.youtube\.com\/vi\/A3adFWKE9JE\/hqdefault\.jpg/);
   assert.match(direct, /youtube\.com\/watch\?v=A3adFWKE9JE/);
   assert.match(direct, /open\.spotify\.com\/track\/64SIlhd3BaHCCMSfajXG7l/);
   const fallback = ctx.audioBox(course.recordings.find(r => r.id === 'rec-040'));

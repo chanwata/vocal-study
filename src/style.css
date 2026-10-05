@@ -60,3 +60,4 @@
 .media-links a{color:#714444;font-weight:650}
 .track-card .audio-box .video-kind{color:var(--muted);font-size:.76rem;margin:5px 0 0}
 @media(max-width:760px){.youtube-play{width:58px;height:42px}.media-links{gap:8px 14px}}
+.track-card .audio-box .youtube-poster{background:#18151a;border:0;padding:0;color:#fff}
