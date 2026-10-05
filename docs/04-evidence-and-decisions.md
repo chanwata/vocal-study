@@ -93,3 +93,15 @@ S1をもとに医療効果を保証しない。S2・S3の一般的な技術解�
 6. 確認できていない音声・実機テストを実施済みと報告する。
 
 この記録と他の設計書に矛盾が生じた場合は、原稿・データ・実装を一緒に訂正し、確認済みの根拠を残す。
+
+## 6. 2026-10-05 実装後の追記
+
+上の判断記録は設計時点の記録。サイトは実装・GitHub Pages公開済み。曲別Spotifyリンクは41曲に設定したが、曲名・アーティスト・掲載アルバムの候補確認であり、実際の録音を聴いた上での版照合ではない。
+
+| 曲 | Spotifyの根拠 | 扱い |
+|---|---|---|
+| Jeff Buckley「Grace」 | [Spotifyの曲ページ](https://open.spotify.com/track/64SIlhd3BaHCCMSfajXG7l)、[アルバム](https://open.spotify.com/album/05kFTS7QT3D9Ltb8fvFogN) | スタジオ録音の候補 |
+| Earth, Wind & Fire「Fantasy」 | [Spotifyの曲ページ](https://open.spotify.com/track/4nUf31yuJlxFUnEVYW1CyM)に `All 'N All`、1977年、4:37の表示 | アルバム版の候補。シングル版は採らない |
+| Bon Iver「Woods」 | [Spotifyの曲ページ](https://open.spotify.com/track/2cx019HWgBsIrv3zLCdSHS)に `Blood Bank`、2009年の表示 | EP収録版の候補。ライブ版は採らない |
+| MISIA「Everything」 | [Spotifyの曲埋め込み](https://open.spotify.com/embed/track/5VCsbxir29FtbKxQDF1yU9)、[2000年のシングル](https://open.spotify.com/album/1ifijbnGiHkELLnZdiTvf5) | 同名曲・シングル収録を照合する候補 |
+| 山下達郎「RIDE ON TIME」 | [本人の公式ディスコグラフィ](https://www.tatsuro.co.jp/discography/)で作品を確認。Spotify検索ではカバー音源が多く本人の対象曲IDを確認できず | 誤った曲へ誘導せず、検索リンクを表示 |

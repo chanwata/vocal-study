@@ -24,7 +24,8 @@ test('Spotify candidates and search fallbacks have valid destinations', () => {
     if (recording.spotifyId) assert.match(recording.spotifyId, /^[A-Za-z0-9]{22}$/);
     assert.equal(recording.listens.length, 3);
   }
-  assert.equal(course.recordings.filter(r => r.spotifyId).length, 37);
+  assert.equal(course.recordings.filter(r => r.spotifyId).length, 41);
+  assert.equal(course.recordings.find(r => r.id === 'rec-040').spotifyId, null);
 });
 
 test('build embeds the course and contains no unfilled placeholders', () => {
