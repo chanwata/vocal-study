@@ -294,6 +294,10 @@
       "version": "1957年Keenのオリジナル録音",
       "prompt": "音の高さが落ち着いてから、語尾がどうほどけるか。",
       "spotifyId": "2dDELaEsvmR9P3UvN8kXpL",
+      "youtube": {
+        "id": "dGQtL1l5i0Q",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Sam%20Cooke%20You%20Send%20Me",
       "thesis": "滑らかさを、音の始まりと語尾から聴いてみる。",
       "background": "Sam Cookeはゴスペル・グループSoul Stirrersでの活動を経て、ポップの領域へ進んだ歌手・ソングライターです。「You Send Me」は1957年にKeenから発表された代表的な録音です。歌手としての魅力だけでなく、作品を生み出す側としての活動も、人物ページでたどります。",
@@ -323,6 +327,10 @@
       "version": "Close to You、スタジオ版",
       "prompt": "声の輪郭と、長い母音の終わりを追おう。",
       "spotifyId": "42JfLDGaINRBeAv0tdtfCi",
+      "youtube": {
+        "id": "M268Csnue9I",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Carpenters%20%28They%20Long%20to%20Be%29%20Close%20to%20You",
       "thesis": "声の輪郭と、長い母音の終わりを追おう。",
       "background": "",
@@ -352,6 +360,10 @@
       "version": "Come Away with Me、スタジオ版",
       "prompt": "小さな変化は、ピアノや休符の中でどう届くか。",
       "spotifyId": "5HUXKP6uCT4f6Y1vSnwZhv",
+      "youtube": {
+        "id": "GtOcxj3NDBI",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Norah%20Jones%20Don%27t%20Know%20Why",
       "thesis": "小さな変化は、ピアノや休符の中でどう届くか。",
       "background": "",
@@ -381,6 +393,10 @@
       "version": "1941年のスタジオ録音",
       "prompt": "伴奏の拍と、言葉が着く場所を別々に追おう。",
       "spotifyId": "0IG6bETiukiwp5FWGq0Eq6",
+      "youtube": {
+        "id": "5J18k5Sx3Dw",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Billie%20Holiday%20All%20of%20Me",
       "thesis": "伴奏の拍と、言葉が着く場所を別々に追おう。",
       "background": "",
@@ -410,6 +426,10 @@
       "version": "Songs for Swingin' Lovers!、スタジオ版",
       "prompt": "言葉のまとまりは、小節の区切りをどうまたぐか。",
       "spotifyId": "2Qo98hvCu4wn33jQLoSSeG",
+      "youtube": {
+        "id": "xz5W5bKLj_4",
+        "type": "公式音源・リマスター"
+      },
       "searchUrl": "https://open.spotify.com/search/Frank%20Sinatra%20I%27ve%20Got%20You%20Under%20My%20Skin",
       "thesis": "言葉のまとまりは、小節の区切りをどうまたぐか。",
       "background": "",
@@ -439,6 +459,10 @@
       "version": "Ella and Louis、スタジオ版",
       "prompt": "同じ伴奏で、二人の言葉の輪郭はどう違うか。",
       "spotifyId": "046AXHa07Fa2EQbfgrcaNU",
+      "youtube": {
+        "id": "lGfeCe0DHtI",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Ella%20Fitzgerald%20%26%20Louis%20Armstrong%20Cheek%20to%20Cheek",
       "thesis": "同じ伴奏で、二人の言葉の輪郭はどう違うか。",
       "background": "",
@@ -468,6 +492,10 @@
       "version": "1954年のオリジナル録音",
       "prompt": "繰り返す呼びかけは、毎回同じ強さだろうか。",
       "spotifyId": "5zynTNdDtIF5czBBABu415",
+      "youtube": {
+        "id": "wKdATDq2Vfs",
+        "type": "公式音源・シングル版"
+      },
       "searchUrl": "https://open.spotify.com/search/Ray%20Charles%20I%20Got%20a%20Woman",
       "thesis": "繰り返す呼びかけは、毎回同じ強さだろうか。",
       "background": "",
@@ -497,6 +525,10 @@
       "version": "I Never Loved a Man the Way I Love You、スタジオ版",
       "prompt": "リードと応答する声の、受け渡しを聴こう。",
       "spotifyId": "7s25THrKz86DM225dOYwnr",
+      "youtube": {
+        "id": "JzqGZjFnYnA",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Aretha%20Franklin%20Respect",
       "thesis": "リードと応答する声の、受け渡しを聴こう。",
       "background": "",
@@ -526,6 +558,10 @@
       "version": "Complete & Unbelievable: The Otis Redding Dictionary of Soul",
       "prompt": "声と伴奏は、どの段階から熱を増していくか。",
       "spotifyId": "2txRv0o9Yo1jnZSgSnwfkC",
+      "youtube": {
+        "id": "CjO7qdADCyQ",
+        "type": "レーベル公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Otis%20Redding%20Try%20a%20Little%20Tenderness",
       "thesis": "声と伴奏は、どの段階から熱を増していくか。",
       "background": "",
@@ -555,6 +591,10 @@
       "version": "1965年ヒット版のスタジオ録音",
       "prompt": "短く切る声のあとに、どんな空白ができるか。",
       "spotifyId": "4ulUxJwGJeCkthwblfTN0j",
+      "youtube": {
+        "id": "iSLwVaebsJg",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/James%20Brown%20I%20Got%20You%20%28I%20Feel%20Good%29",
       "thesis": "短く切る声のあとに、どんな空白ができるか。",
       "background": "",
@@ -584,6 +624,10 @@
       "version": "Talking Book、スタジオ版",
       "prompt": "言葉のアクセントとリフは、重なるか、すれ違うか。",
       "spotifyId": "1TV9qMgIML1eyznrB1d4eB",
+      "youtube": {
+        "id": "egqv1mtos6A",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Stevie%20Wonder%20Superstition",
       "thesis": "言葉のアクセントとリフは、重なるか、すれ違うか。",
       "background": "",
@@ -613,6 +657,10 @@
       "version": "Off the Wall、アルバム版",
       "prompt": "滑らかな母音の手前で、子音は何をしているか。",
       "spotifyId": "3SJBhFjRWfAYqhPxJQQCkL",
+      "youtube": {
+        "id": "aCjxP58Ydik",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Michael%20Jackson%20Rock%20With%20You",
       "thesis": "流れるメロディーの中に、短いリズムの輪郭を探す。",
       "background": "1979年のアルバム『Off the Wall』に収録された曲です。教材ではライブや別ミックスを混ぜず、指定するアルバム版を基準にします。公式カタログでもアルバム収録を確認できます。",
@@ -642,6 +690,10 @@
       "version": "What's Going On、アルバム版",
       "prompt": "主旋律のまわりの声が、距離感をどう変えるか。",
       "spotifyId": "7GDzf0MaVa1Jz6P25YrWSc",
+      "youtube": {
+        "id": "o5TmORitlKk",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Marvin%20Gaye%20What%27s%20Going%20On",
       "thesis": "主旋律のまわりの声が、距離感をどう変えるか。",
       "background": "",
@@ -671,6 +723,10 @@
       "version": "Let's Stay Together、スタジオ版",
       "prompt": "フレーズ途中の声色の変化を一か所探そう。",
       "spotifyId": "6v74ocICYr6ZPn37zXFqt2",
+      "youtube": {
+        "id": "mYDLL6tOcUY",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Al%20Green%20Let%27s%20Stay%20Together",
       "thesis": "フレーズ途中の声色の変化を一か所探そう。",
       "background": "",
@@ -700,6 +756,10 @@
       "version": "Donny Hathaway、スタジオ版",
       "prompt": "ピアノと言葉の間に、どれほど余白を残すか。",
       "spotifyId": "3kpA4mVTVLhzOycgODbAmn",
+      "youtube": {
+        "id": "riwePTnk-Zk",
+        "type": "レーベル公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Donny%20Hathaway%20A%20Song%20for%20You",
       "thesis": "ピアノと言葉の間に、どれほど余白を残すか。",
       "background": "",
@@ -729,6 +789,10 @@
       "version": "Stompin' at the Savoy収録のスタジオ曲",
       "prompt": "細かな節回しが、次の拍へどう着地するか。",
       "spotifyId": "53Za5vyGc1x7GxgJVRjRKc",
+      "youtube": {
+        "id": "uBnISf3Rjx8",
+        "type": "公式音源・1983年版"
+      },
       "searchUrl": "https://open.spotify.com/search/Rufus%20%26%20Chaka%20Khan%20Ain%27t%20Nobody",
       "thesis": "細かな節回しが、次の拍へどう着地するか。",
       "background": "",
@@ -758,6 +822,10 @@
       "version": "The Bodyguard、サウンドトラック版",
       "prompt": "大きな展開の前後で、同じ言葉の扱いを比べよう。",
       "spotifyId": "03KPdQjhnVuWAApakTztPV",
+      "youtube": {
+        "id": "FxYw0XPEoKE",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Whitney%20Houston%20I%20Have%20Nothing",
       "thesis": "大きな展開の前後で、同じ言葉の扱いを比べよう。",
       "background": "",
@@ -787,6 +855,10 @@
       "version": "Mariah Carey、スタジオ版",
       "prompt": "一つの母音に複数の音を置くと、意味はどう伸びるか。",
       "spotifyId": "7e5jTTU3h2qcnFCH7VkdDH",
+      "youtube": {
+        "id": "KjZHh_C7IEo",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Mariah%20Carey%20Vision%20of%20Love",
       "thesis": "一つの母音に複数の音を置くと、意味はどう伸びるか。",
       "background": "",
@@ -816,6 +888,10 @@
       "version": "Parade、アルバム版",
       "prompt": "声の質感と、伴奏の空き方を一緒に聴こう。",
       "spotifyId": "62LJFaYihsdVrrkgUOJC05",
+      "youtube": {
+        "id": "H9tEvfIsDyo",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Prince%20Kiss",
       "thesis": "声の質感と、伴奏の空き方を一緒に聴こう。",
       "background": "",
@@ -845,6 +921,10 @@
       "version": "Grace、スタジオ版",
       "prompt": "高さの変化に加え、声の厚みはどこで変わるか。",
       "spotifyId": "64SIlhd3BaHCCMSfajXG7l",
+      "youtube": {
+        "id": "A3adFWKE9JE",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Jeff%20Buckley%20Grace",
       "thesis": "高さの変化に加え、声の厚みはどこで変わるか。",
       "background": "",
@@ -874,6 +954,10 @@
       "version": "Perfect Angel、アルバム版",
       "prompt": "主旋律と高い装飾の役割を分けて聴こう。",
       "spotifyId": "0xsJAdCWcWU3mnUL5rUwpV",
+      "youtube": {
+        "id": "7MmEVWI8Ieo",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Minnie%20Riperton%20Lovin%27%20You",
       "thesis": "主旋律と高い装飾の役割を分けて聴こう。",
       "background": "",
@@ -903,6 +987,10 @@
       "version": "A Day at the Races、スタジオ版",
       "prompt": "主役の声と重なる声が、場面をどう大きくするか。",
       "spotifyId": "0iyynLPb6JBAYwMWOJURuA",
+      "youtube": {
+        "id": "kijpcUv-b8M",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Queen%20Somebody%20to%20Love",
       "thesis": "主役の声と重なる声が、場面をどう大きくするか。",
       "background": "",
@@ -932,6 +1020,10 @@
       "version": "Led Zeppelin II、アルバム版",
       "prompt": "声、ギター、空間の変化を別々に追おう。",
       "spotifyId": "0eTvtih3D41bNRGTjbxKBl",
+      "youtube": {
+        "id": "HibBnC6SVk8",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Led%20Zeppelin%20Whole%20Lotta%20Love",
       "thesis": "声、ギター、空間の変化を別々に追おう。",
       "background": "",
@@ -961,6 +1053,10 @@
       "version": "1966年のオリジナル録音",
       "prompt": "厚い伴奏の中で、言葉の輪郭はどう残るか。",
       "spotifyId": "41xlLl161p13nmOerNMwVg",
+      "youtube": {
+        "id": "pWK7v0gIHLo",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Ike%20%26%20Tina%20Turner%20River%20Deep%20%E2%80%93%20Mountain%20High",
       "thesis": "厚い伴奏の中で、言葉の輪郭はどう残るか。",
       "background": "",
@@ -990,6 +1086,10 @@
       "version": "Blue、スタジオ版",
       "prompt": "一つの話を、どこで区切り、どこでつなぐか。",
       "spotifyId": "3UedPlgycMQuLwNf1kdzqP",
+      "youtube": {
+        "id": "jqYpK3CFmMk",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Joni%20Mitchell%20A%20Case%20of%20You",
       "thesis": "一つの話を、どこで区切り、どこでつなぐか。",
       "background": "",
@@ -1019,6 +1119,10 @@
       "version": "I Put a Spell on You、スタジオ版",
       "prompt": "言葉の繰り返しが、どこで別の表情になるか。",
       "spotifyId": "38TdYST9vdCgUmf0ErLs0n",
+      "youtube": {
+        "id": "BNMKGYiJpvg",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Nina%20Simone%20Feeling%20Good",
       "thesis": "言葉の繰り返しが、どこで別の表情になるか。",
       "background": "",
@@ -1048,6 +1152,10 @@
       "version": "Hunky Dory、スタジオ版",
       "prompt": "場面の拡大は、音の高さだけで説明できるか。",
       "spotifyId": "6RWpqrxnIqL438sbz6fL5q",
+      "youtube": {
+        "id": "AZKcl4-tcuo",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/David%20Bowie%20Life%20on%20Mars%3F",
       "thesis": "場面の拡大は、音の高さだけで説明できるか。",
       "background": "",
@@ -1077,6 +1185,10 @@
       "version": "Brown Sugar、アルバム版",
       "prompt": "歌い出し、母音の中心、語尾の位置を分けて聴こう。",
       "spotifyId": "5PPcU1str0gNWwZg5OH1aL",
+      "youtube": {
+        "id": "Uon7iKGqqaA",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/D%27Angelo%20Brown%20Sugar",
       "thesis": "歌い出し、母音の中心、語尾の位置を分けて聴こう。",
       "background": "",
@@ -1106,6 +1218,10 @@
       "version": "Baduizm、スタジオ版",
       "prompt": "繰り返す伴奏の上で、言葉はどのくらい自由に動くか。",
       "spotifyId": "0Rm7o1HSrowxObyzdVaDPa",
+      "youtube": {
+        "id": "j-yh7sGQe2Q",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Erykah%20Badu%20On%20%26%20On",
       "thesis": "繰り返す伴奏の上で、言葉はどのくらい自由に動くか。",
       "background": "",
@@ -1135,6 +1251,10 @@
       "version": "The Miseducation of Lauryn Hill、アルバム版",
       "prompt": "反復する言葉が、強弱や応答でどう変わるか。",
       "spotifyId": "4LREhK0iuGcEE8grndXrgL",
+      "youtube": {
+        "id": "VfFykVr0eL8",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Lauryn%20Hill%20Ex-Factor",
       "thesis": "反復する言葉が、強弱や応答でどう変わるか。",
       "background": "",
@@ -1164,6 +1284,10 @@
       "version": "All 'n All、スタジオ版",
       "prompt": "低い声、高い声、重なる声の役割を描き分けよう。",
       "spotifyId": "4nUf31yuJlxFUnEVYW1CyM",
+      "youtube": {
+        "id": "r58GQYFZeLE",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Earth%2C%20Wind%20%26%20Fire%20Fantasy",
       "thesis": "低い声、高い声、重なる声の役割を描き分けよう。",
       "background": "",
@@ -1193,6 +1317,10 @@
       "version": "1992年オリジナル版を基準に照合",
       "prompt": "リードが替わる場所と、背後で保たれる声を探そう。",
       "spotifyId": "2hfHbXiYnG0MvDxmNjvB2N",
+      "youtube": {
+        "id": "CmeriHkAF5c",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Boyz%20II%20Men%20End%20of%20the%20Road",
       "thesis": "リードが替わる場所と、背後で保たれる声を探そう。",
       "background": "",
@@ -1222,6 +1350,10 @@
       "version": "Speak for Yourself、スタジオ版",
       "prompt": "言葉を保ったまま、声が和音になる瞬間を聴こう。",
       "spotifyId": "2HP0MOZmv0js3dxn93LoM4",
+      "youtube": {
+        "id": "UYIAfiVGluk",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Imogen%20Heap%20Hide%20and%20Seek",
       "thesis": "言葉を保ったまま、声が和音になる瞬間を聴こう。",
       "background": "",
@@ -1251,6 +1383,10 @@
       "version": "First Love、オリジナルのスタジオ録音",
       "prompt": "日本語の母音は、どこまで旋律を運んでいるか。",
       "spotifyId": "1iLlI57LshFyG9OFCzM5YZ",
+      "youtube": {
+        "id": "o1sUaVJUeB0",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20First%20Love",
       "thesis": "日本語の母音が、どこまで旋律を運ぶか。",
       "background": "1999年のアルバム『First Love』の表題曲を扱います。公式の15周年盤にはリマスター音源やライブ映像が含まれるため、教材が指定する演奏と収録年・再発年を分けて確認します。",
@@ -1280,6 +1416,10 @@
       "version": "無罪モラトリアム、スタジオ版",
       "prompt": "言葉の輪郭と、伴奏への乗り方を分けて追おう。",
       "spotifyId": "45HQhF0BfOqBd4LUS1E94M",
+      "youtube": {
+        "id": "4tlUwgtgdZA",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E%20%E4%B8%B8%E3%83%8E%E5%86%85%E3%82%B5%E3%83%87%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF",
       "thesis": "言葉の輪郭と、伴奏への乗り方を分けて追おう。",
       "background": "",
@@ -1309,6 +1449,10 @@
       "version": "CAFE JAPAN、スタジオ版",
       "prompt": "長く残す語尾と、言い切る語尾を比べよう。",
       "spotifyId": "7LBY7RSoCYbQ9F5S5nYUkU",
+      "youtube": {
+        "id": "dHmtEIecXgg",
+        "type": "公式アーティストチャンネル"
+      },
       "searchUrl": "https://open.spotify.com/search/%E7%8E%89%E7%BD%AE%E6%B5%A9%E4%BA%8C%20%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%83%BC",
       "thesis": "長く残す語尾と、言い切る語尾を比べよう。",
       "background": "",
@@ -1338,6 +1482,10 @@
       "version": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
       "prompt": "近く聞こえる主声と、広がる声を分けて聴こう。",
       "spotifyId": "0lxT0zERBOh7rNOrGJJwyv",
+      "youtube": {
+        "id": "pbMwTqkKSps",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Billie%20Eilish%20when%20the%20party%27s%20over",
       "thesis": "近く聞こえる主声と、広がる声を分けて聴こう。",
       "background": "",
@@ -1367,6 +1515,10 @@
       "version": "Blood Bank EP",
       "prompt": "繰り返す声が重なると、言葉の意味はどう変わるか。",
       "spotifyId": "2cx019HWgBsIrv3zLCdSHS",
+      "youtube": {
+        "id": "bM5aQL8rfXs",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Bon%20Iver%20Woods",
       "thesis": "繰り返す声が重なると、言葉の意味はどう変わるか。",
       "background": "",
@@ -1396,6 +1548,10 @@
       "version": "Discovery、アルバム版",
       "prompt": "声の輪郭と音の処理を、どこまで聴き分けられるか。",
       "spotifyId": "4Yfo54dYtrSivMl8mmJLDl",
+      "youtube": {
+        "id": "em0MknB6wFo",
+        "type": "公式音源"
+      },
       "searchUrl": "https://open.spotify.com/search/Daft%20Punk%20Something%20About%20Us",
       "thesis": "声の輪郭と音の処理を、どこまで聴き分けられるか。",
       "background": "",
@@ -1425,6 +1581,10 @@
       "version": "RIDE ON TIME、アルバム版",
       "prompt": "声の入り、伸び、切り際を、自分の言葉で説明しよう。",
       "spotifyId": null,
+      "youtube": {
+        "id": "XE45nsroFTE",
+        "type": "本人音源と題された第三者投稿。収録版・公開元は未確認"
+      },
       "searchUrl": "https://open.spotify.com/search/%E5%B1%B1%E4%B8%8B%E9%81%94%E9%83%8E%20RIDE%20ON%20TIME",
       "thesis": "声の入り、伸び、切り際を、自分の言葉で説明しよう。",
       "background": "",
@@ -1454,6 +1614,10 @@
       "version": "2000年シングル版を基準に照合",
       "prompt": "大きな展開を、声・言葉・伴奏の三つから説明しよう。",
       "spotifyId": "5VCsbxir29FtbKxQDF1yU9",
+      "youtube": {
+        "id": "aHIR33pOUv0",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/MISIA%20Everything",
       "thesis": "大きな展開を、声・言葉・伴奏の三つから説明しよう。",
       "background": "",
@@ -1483,6 +1647,10 @@
       "version": "2020年オリジナル配信版",
       "prompt": "声色の切り替わりを、場面と結びつけて整理しよう。",
       "spotifyId": "04TYwjYg02xvZHnDQHTqgJ",
+      "youtube": {
+        "id": "Qp3b-RXtz4w",
+        "type": "公式映像"
+      },
       "searchUrl": "https://open.spotify.com/search/Ado%20%E3%81%86%E3%81%A3%E3%81%9B%E3%81%87%E3%82%8F",
       "thesis": "声色の切り替わりを、場面と結びつけて整理しよう。",
       "background": "",

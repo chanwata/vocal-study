@@ -3,6 +3,7 @@ import json, pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DRAFT = (ROOT / 'docs/02-editorial-draft.md').read_text()
 SPOTIFY = json.loads((ROOT / 'src/spotify.json').read_text())
+YOUTUBE = json.loads((ROOT / 'src/youtube.json').read_text())
 
 def field(block, name):
     match = re.search(r'^\*\*' + re.escape(name) + r'：\*\*\s*(.+)$', block, re.M)
@@ -19,7 +20,7 @@ assert len(rows) == 42
 recordings = []
 for rid, num, tier, artist, title, version, prompt in rows:
     recordings.append(dict(id=rid, lessonId='lesson-' + num, tier=tier, artist=artist, title=title,
-        version=version, prompt=prompt, spotifyId=SPOTIFY[rid],
+        version=version, prompt=prompt, spotifyId=SPOTIFY[rid], youtube=YOUTUBE[rid],
         searchUrl='https://open.spotify.com/search/' + __import__('urllib.parse', fromlist=['quote']).quote(artist + ' ' + title)))
 
 lessons = []
@@ -31,6 +32,9 @@ for match in re.finditer(r'^### Lesson (\d{2})｜([^\n]+)\n(.*?)(?=^### Lesson \
         exercise=field(body, '任意の実験'), silent=field(body, '声を出さない課題'), answer=field(body, '回答例'),
         recordingIds=[r['id'] for r in recordings if r['lessonId'] == 'lesson-' + num]))
 assert len(lessons) == 14 and all(len(x['recordingIds']) == 3 for x in lessons)
+assert set(YOUTUBE) == {r['id'] for r in recordings}
+assert len({v['id'] for v in YOUTUBE.values()}) == 42
+assert all(re.fullmatch(r'[A-Za-z0-9_-]{11}', v['id']) and v['type'] for v in YOUTUBE.values())
 
 details = {}
 for match in re.finditer(r'^### (rec-\d{3})｜[^\n]+\n(.*?)(?=^### rec-\d{3}｜|^## 6\.)', DRAFT, re.M | re.S):
@@ -103,4 +107,4 @@ page = page.replace('/* APP */', (ROOT / 'src/app.js').read_text())
 assert all(x not in page for x in ['/* COURSE */', '/* STYLE */', '/* APP */'])
 (ROOT / 'dist').mkdir(exist_ok=True)
 (ROOT / 'dist/index.html').write_text(page)
-print(f'Built {len(lessons)} lessons, {len(recordings)} recordings, {len([r for r in recordings if r["spotifyId"]])} Spotify tracks; {len(page.encode()):,} bytes')
+print(f'Built {len(lessons)} lessons, {len(recordings)} YouTube videos, {len([r for r in recordings if r["spotifyId"]])} Spotify tracks; {len(page.encode()):,} bytes')

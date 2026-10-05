@@ -47,3 +47,16 @@
 .lesson-try p{font-size:.9rem}
 @media(max-width:760px){.lesson-tracks{flex-direction:column}.lesson-tracks a{width:100%}.track-heading{padding:16px 16px 13px}.track-card .track-body{padding:0 16px 18px}.track-card .audio-box{padding:9px}.track-card .track-points li{font-size:.9rem}}
 @media print{.track-card .audio-box{display:none}.track-card{break-inside:auto}}
+
+.track-card .audio-box{background:transparent;padding:0;margin:0 0 20px}
+.youtube-poster,.track-card .audio-box .youtube-frame{display:block;width:100%;max-width:620px;aspect-ratio:16/9;border:0;border-radius:9px;overflow:hidden;margin:0;background:#18151a}
+.youtube-poster{position:relative;padding:0;cursor:pointer;color:#fff}
+.youtube-poster img{display:block;width:100%;height:100%;object-fit:cover}
+.youtube-poster::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 65%,#0009)}
+.youtube-play{position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:64px;height:45px;border-radius:13px;background:#d9252a;color:white;font-size:1.25rem;padding-left:3px;box-shadow:0 2px 12px #0007}
+.youtube-poster:hover .youtube-play{background:#ee2328}
+.youtube-caption{position:absolute;z-index:1;left:14px;bottom:12px;font-size:.8rem;font-weight:700;text-shadow:0 1px 5px #000}
+.media-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin:9px 0 2px;font-size:.83rem}
+.media-links a{color:#714444;font-weight:650}
+.track-card .audio-box .video-kind{color:var(--muted);font-size:.76rem;margin:5px 0 0}
+@media(max-width:760px){.youtube-play{width:58px;height:42px}.media-links{gap:8px 14px}}

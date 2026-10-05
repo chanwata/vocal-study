@@ -6,7 +6,7 @@
 
 ## 現在の状態
 
-2026-10-05：14レッスン・42曲、聴き比べ、実験、用語、端末内の進捗・メモとJSONでの保存・復元を実装。各レッスンの3曲は開閉操作なしでそのページにSpotify、曲固有の場面と3つの聴きどころ、メモを表示します。Spotifyは41曲の候補トラックへのリンクと埋め込み、山下達郎「RIDE ON TIME」の検索リンクを掲載しています。42組すべての人物紹介は別の歌手索引に掲載。選曲表とリンク先の録音版は候補で、実聴レビューを経て確定します。
+2026-10-05：14レッスン・42曲、聴き比べ、実験、用語、端末内の進捗・メモとJSONでの保存・復元を実装。各レッスンの3曲は開閉操作なしでそのページにYouTube動画のサムネイルと再生、曲固有の場面と3つの聴きどころ、メモを表示します。サムネイルと再生動画は42曲すべて同じ動画IDを使用。Spotifyは41曲の候補トラックへのリンク、山下達郎「RIDE ON TIME」の検索リンクを残しています。42組すべての人物紹介は別の歌手索引に掲載。選曲表とリンク先の録音版は候補で、実聴レビューを経て確定します。
 
 ## 開発
 
@@ -18,7 +18,7 @@ node --test tests/course.test.js
 python3 -m http.server 8000 --directory dist
 ```
 
-`src/spotify.json`の候補リンク、`src/recording_guides.jsonl`の42曲固有の聴きどころ、`src/artist_profiles.jsonl`の人物原稿、`src/engineering_experiments.json`の実験案、`docs/02-editorial-draft.md`の教材原稿から`src/course.json`と`dist/index.html`を生成します。GitHub Actionsで同じビルド・検証を実行し、GitHub Pagesに配置します。
+`src/youtube.json`の動画ID、`src/spotify.json`の候補リンク、`src/recording_guides.jsonl`の42曲固有の聴きどころ、`src/artist_profiles.jsonl`の人物原稿、`src/engineering_experiments.json`の実験案、`docs/02-editorial-draft.md`の教材原稿から`src/course.json`と`dist/index.html`を生成します。GitHub Actionsで同じビルド・検証を実行し、GitHub Pagesに配置します。
 
 ## 設計資料
 

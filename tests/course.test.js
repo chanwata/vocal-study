@@ -29,6 +29,17 @@ test('Spotify candidates and search fallbacks have valid destinations', () => {
   assert.equal(course.recordings.find(r => r.id === 'rec-040').spotifyId, null);
 });
 
+test('every recording has a distinct YouTube thumbnail and video source', () => {
+  const videos = JSON.parse(fs.readFileSync(path.join(root, 'src/youtube.json'), 'utf8'));
+  assert.equal(Object.keys(videos).length, 42);
+  assert.equal(new Set(Object.values(videos).map(v => v.id)).size, 42);
+  for (const r of course.recordings) {
+    assert.match(r.youtube.id, /^[A-Za-z0-9_-]{11}$/);
+    assert.deepEqual(r.youtube, videos[r.id]);
+  }
+  assert.match(course.recordings.find(r => r.id === 'rec-040').youtube.type, /未確認/);
+});
+
 test('every featured artist has substantial voice and production notes', () => {
   assert.equal(course.artists.length, 42);
   assert.deepEqual(new Set(course.artists.map(a => a.name)), new Set(course.recordings.map(r => r.artist)));
@@ -70,16 +81,18 @@ test('build embeds the course and contains no unfilled placeholders', () => {
   assert.ok(!html.includes('/* APP */'));
 });
 
-test('lesson cards show an inline player or a search fallback', () => {
+test('lesson cards show matching YouTube thumbnails and retain Spotify links', () => {
   const app = fs.readFileSync(path.join(root, 'src/app.js'), 'utf8');
   const fn = app.match(/^function audioBox\(r\).*$/m)?.[0];
   assert.ok(fn);
   const ctx = { esc: value => String(value), labelFor: r => r.spotifyId ? 'Spotifyで曲を開く' : 'Spotifyで曲を検索' };
   vm.runInNewContext(fn, ctx);
   const direct = ctx.audioBox(course.recordings.find(r => r.id === 'rec-020'));
-  assert.match(direct, /<iframe[^>]+src="https:\/\/open\.spotify\.com\/embed\/track\/64SIlhd3BaHCCMSfajXG7l/);
-  assert.ok(!direct.includes('ここでプレーヤーを表示'));
+  assert.match(direct, /data-youtube="A3adFWKE9JE"/);
+  assert.match(direct, /i\.ytimg\.com\/vi\/A3adFWKE9JE\/hqdefault\.jpg/);
+  assert.match(direct, /youtube\.com\/watch\?v=A3adFWKE9JE/);
+  assert.match(direct, /open\.spotify\.com\/track\/64SIlhd3BaHCCMSfajXG7l/);
   const fallback = ctx.audioBox(course.recordings.find(r => r.id === 'rec-040'));
-  assert.ok(!fallback.includes('<iframe'));
+  assert.match(fallback, /data-youtube="XE45nsroFTE"/);
   assert.match(fallback, /Spotifyで曲を検索/);
 });
