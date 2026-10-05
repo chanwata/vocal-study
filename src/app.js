@@ -95,7 +95,7 @@ function homePage(){const done=Object.values(state.lessonCompleted).filter(Boole
   <div class="section-title"><h2>一曲、三つの聴き方</h2></div><div class="feature-grid"><div class="feature"><span class="step">01</span><h3>全体を受け取る</h3><p>まずは好きに聴いて、印象を一つ残す。</p></div><div class="feature"><span class="step">02</span><h3>今日の一点を追う</h3><p>入り、母音、語尾など、一つだけに集中する。</p></div><div class="feature"><span class="step">03</span><h3>伴奏の中へ戻す</h3><p>見つけた表現が、曲の中で何をしているか。</p></div></div>
   <div class="section-title"><h2>14のレッスン</h2><small>好きな順番でもOK</small></div><div class="card">${COURSE.lessons.map(l=>`<a class="catalog-item" href="#${l.id}"><span class="track-index">${String(l.number).padStart(2,'0')}</span><span class="text"><b>${esc(l.title)}</b><small>${esc(l.lead)}</small></span><span>${state.lessonCompleted[l.id]?'✓':'→'}</span></a>`).join('')}</div>
   <div class="card"><h2>この端末に記録する</h2><p>進捗とメモはこの端末・このブラウザに保存します。別端末への自動同期はありません。<a href="#data">バックアップを保存</a>して移せます。</p></div></article>`}
-function audioBox(r){const url=r.spotifyId?'https://open.spotify.com/track/'+r.spotifyId:r.searchUrl;return `<div class="audio-box"><span class="eyebrow">LISTEN ON SPOTIFY</span><div class="actions"><a class="button-secondary" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${labelFor(r)} ↗</a>${r.spotifyId?`<button type="button" data-play="${r.id}">ここでプレーヤーを表示</button>`:''}</div><div data-player="${r.id}"></div><p>${r.spotifyId?'歌手・曲名に合うSpotifyの候補リンクです。':'曲名を入れたSpotify検索へ移動します。'} 同名のライブ・再発・別ミックスがあり得るため、対象録音の版を確認して聴いてください。埋め込みの再生範囲は利用環境によります。</p></div>`}
+function audioBox(r){const url=r.spotifyId?'https://open.spotify.com/track/'+r.spotifyId:r.searchUrl;return `<div class="audio-box"><span class="eyebrow">LISTEN HERE · この曲を聴く</span>${r.spotifyId?`<iframe title="Spotifyで${esc(r.artist)}「${esc(r.title)}」を再生" src="https://open.spotify.com/embed/track/${r.spotifyId}?utm_source=generator&amp;theme=0" width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`:''}<div class="actions"><a class="button-secondary" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${labelFor(r)} ↗</a></div><p>${r.spotifyId?'歌手・曲名に合うSpotifyの候補をこの場で再生できます。':'本人の対象曲を特定できていないため、Spotify検索へ移動します。'} 同名のライブ・再発・別ミックスがあり得るため、対象録音の版を確認して聴いてください。再生範囲は利用環境によります。</p></div>`}
 function recordingCard(r){const expanded=location.hash.endsWith('/'+r.id);return `<details class="track-card" id="${r.id}" ${expanded?'open':''}><summary><span class="track-index">${r.id.slice(-3)}</span><span class="track-title"><b>${esc(r.title)}</b><small>${esc(r.artist)} · ${r.tier==='C'?'発展':'基本'}</small></span><span class="chevron" aria-hidden="true">＋</span></summary><div class="track-body">
   <div class="edition"><strong>対象録音の候補</strong>${esc(r.version)}。配信版と録音内容は照合中です。</div>${audioBox(r)}
   <p class="track-thesis">${esc(r.thesis)}</p>${r.background?`<p>${esc(r.background)}</p>`:''}${r.analysis?`<p>${esc(r.analysis)}</p>`:''}
@@ -140,13 +140,12 @@ function render(){
 }
 
 document.addEventListener('click',event=>{
-  const button=event.target.closest('[data-action],[data-play],[data-mode]');if(!button)return;
+  const button=event.target.closest('[data-action],[data-mode]');if(!button)return;
   const action=button.dataset.action;
   if(action==='export-json')exportJSON();else if(action==='export-txt')exportTXT();else if(action==='import')$('#import-file').click();
   else if(action==='raw-backup'&&brokenRaw!==null)download('vocal-listening-lab-unreadable-data.txt',brokenRaw,'text/plain;charset=utf-8');
   else if(action==='reset'&&window.confirm('この端末に保存されている破損データを初期化しますか？ 元データは先に書き出せます。')){try{localStorage.removeItem(STORAGE_KEY);brokenRaw=null;storageError=false;state=blank();render();message('この端末の記録を初期化しました。')}catch(_){message('初期化できませんでした。')}}
   if(button.dataset.mode)saveMode(button.dataset.mode);
-  if(button.dataset.play){const id=button.dataset.play,r=RECORDINGS.get(id),host=$(`[data-player="${id}"]`);if(!host||!r?.spotifyId)return;const iframe=document.createElement('iframe');iframe.title=r.artist+'「'+r.title+'」Spotifyプレーヤー';iframe.src='https://open.spotify.com/embed/track/'+r.spotifyId;iframe.loading='lazy';iframe.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';host.replaceChildren(iframe);button.hidden=true}
 });
 document.addEventListener('input',event=>{
   const el=event.target;

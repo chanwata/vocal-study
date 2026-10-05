@@ -2,6 +2,7 @@ const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
+const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const course = JSON.parse(fs.readFileSync(path.join(root, 'src/course.json'), 'utf8'));
 const html = fs.readFileSync(path.join(root, 'dist/index.html'), 'utf8');
@@ -34,4 +35,18 @@ test('build embeds the course and contains no unfilled placeholders', () => {
   assert.ok(!html.includes('/* COURSE */'));
   assert.ok(!html.includes('/* STYLE */'));
   assert.ok(!html.includes('/* APP */'));
+});
+
+test('lesson cards show an inline player or a search fallback', () => {
+  const app = fs.readFileSync(path.join(root, 'src/app.js'), 'utf8');
+  const fn = app.match(/^function audioBox\(r\).*$/m)?.[0];
+  assert.ok(fn);
+  const ctx = { esc: value => String(value), labelFor: r => r.spotifyId ? 'Spotifyで曲を開く' : 'Spotifyで曲を検索' };
+  vm.runInNewContext(fn, ctx);
+  const direct = ctx.audioBox(course.recordings.find(r => r.id === 'rec-020'));
+  assert.match(direct, /<iframe[^>]+src="https:\/\/open\.spotify\.com\/embed\/track\/64SIlhd3BaHCCMSfajXG7l/);
+  assert.ok(!direct.includes('ここでプレーヤーを表示'));
+  const fallback = ctx.audioBox(course.recordings.find(r => r.id === 'rec-040'));
+  assert.ok(!fallback.includes('<iframe'));
+  assert.match(fallback, /Spotifyで曲を検索/);
 });
