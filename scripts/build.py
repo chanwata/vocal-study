@@ -72,6 +72,9 @@ assert len(profiles) == len(profile_by_name) == len(names) == 42
 assert set(profile_by_name) == set(names)
 assert set(engineering) == set(names)
 assert all(all(a.get(key) for key in ('bio', 'voice', 'phrasing', 'production', 'listen')) for a in profiles)
+assert all(len(a['bio']) >= 150 and a.get('signature') for a in profiles)
+assert all(len(a.get('related', [])) >= 2 and all(x.get('name') and x.get('relation') for x in a['related']) for a in profiles)
+assert all(a.get('sources') and all(s.get('label') and s.get('url', '').startswith('https://') for s in a['sources']) for a in profiles)
 artists = [dict(**profile_by_name[name], engineering=engineering[name], recordingIds=[r['id'] for r in recordings if r['artist'] == name]) for name in names]
 
 comparisons = []

@@ -1675,12 +1675,33 @@
   "artists": [
     {
       "name": "Sam Cooke",
-      "bio": "ゴスペル・グループSoul Stirrersを経て、ポップとソウルをつなぐ歌手・作曲家になった。『You Send Me』では大きな力を示すより、ひとつの旋律を自然な会話の長さに収める歌を聴ける。",
+      "bio": "ゴスペルの名門Soul Stirrersのリードを務めた後、1957年の「You Send Me」でポップへ進出。RCA時代には「Chain Gang」「Bring It on Home to Me」などを残し、ゴスペルの熱と親しみやすい旋律を結び付けた。歌手・作曲家としてだけでなく、自身の出版会社とSAR Recordsを立ち上げ、後進の作品作りにも関わった。",
       "voice": "明るく滑らかな輪郭と、語尾で少し質感がほどける印象。一定の『甘い声』と決めず、音の頭と母音の終わりを分けて聴く。",
       "phrasing": "子音を強く打たずに言葉を前へ進め、長い母音で旋律を支える。繰り返しのたびに音を切る位置や勢いを比べたい。",
       "production": "50年代末のポップ録音として、主声と伴奏・コーラスの距離を聴く。声の温かさは歌唱だけでなく録音帯域や残響にも左右されるため、特定のマイクや処理は断定しない。",
       "listen": "最初の一語、伸ばす母音、最後の消え方を続けて聴き、どこで親密さを感じたか。",
       "sourceUrl": "https://rockhall.com/inductees/sam-cooke/",
+      "signature": "滑らかなテナーと会話のような言葉運びが持ち味。穏やかなスタジオ録音と熱気のあるライブでは表情が異なり、柔らかさと切迫感を同じ声で行き来する。",
+      "related": [
+        {
+          "name": "Soul Stirrers",
+          "relation": "ソロ転向前にリードを務めたゴスペル・グループ。歌の基盤となった活動。"
+        },
+        {
+          "name": "Bobby Womack／The Valentinos",
+          "relation": "CookeのSARから作品を発表。ゴスペルから世俗のソウルへ進む過程で支援を受けた。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Songwriters Hall of Fame",
+          "url": "https://www.songhall.org/profiles/sam-cooke"
+        },
+        {
+          "label": "abkco.com",
+          "url": "https://www.abkco.com/news-feed/complete-sar-recordings-soul-stirrers-valentinos-released-january-27/"
+        }
+      ],
       "engineering": "温かい主声を試すなら、伴奏を少し下げて中域の言葉を残し、短い残響とコーラスの距離を一つずつ比べる。",
       "recordingIds": [
         "rec-001"
@@ -1688,11 +1709,32 @@
     },
     {
       "name": "Carpenters",
-      "bio": "KarenのリードとRichardの編曲・コーラス設計を軸に、70年代のポップで独自の音像を作った兄妹デュオ。ここでは旋律を歌う主声と、周囲の重なる声を別々に追う。",
+      "bio": "KarenとRichard Carpenterの兄妹デュオ。1969年にA&Mと契約し、「(They Long to Be) Close to You」「We've Only Just Begun」で広く知られた。Karenは歌とドラム、Richardは鍵盤・編曲・重ね録りの設計を担い、1970年代のメロディアスなポップを代表する存在になった。Karenの歌だけでなく、Richardが声を包む音像を組み立てる共同作業が作品の核にある。",
       "voice": "Karenの低めで落ち着いた声域、息の輪郭、明瞭な言葉が入口。低さを単なる音程と捉えず、近くに感じる質感も比べる。",
       "phrasing": "大きな装飾よりも、語頭の置き方と音価の丁寧な調整で歌詞を運ぶ。フレーズ終端の短い余白も聴きどころ。",
       "production": "主声を中心に保ちつつ、多重コーラスや整えられた伴奏で奥行きを作るアレンジに耳を向ける。コーラスの厚みを主声そのものの声量と混同しない。",
       "listen": "リードだけを追ってから、同じ部分の背後の声を聴き、親密さと広がりがどこで切り替わるか。",
+      "signature": "Karenの深い中低音、明瞭な言葉、抑えた表情と、Richardが作る密なハーモニーの組み合わせ。大きな声の見せ場より、旋律を途切れず自然に届ける歌に強みがある。",
+      "related": [
+        {
+          "name": "Richard Carpenter",
+          "relation": "鍵盤奏者・編曲家でKarenの兄。リードの周囲に置く多重コーラスと伴奏を設計した。"
+        },
+        {
+          "name": "Burt Bacharach／Hal David",
+          "relation": "「Close to You」の作曲・作詞コンビ。兄妹の解釈によって代表曲になった。"
+        },
+        {
+          "name": "Herb Alpert",
+          "relation": "音楽家でA&Mの共同創設者。「Close to You」の録音を提案した。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "carpentersofficial.com",
+          "url": "https://www.carpentersofficial.com/about/"
+        }
+      ],
       "engineering": "主声は中央に置き、別録りのハーモニーを左右に薄く広げる。重ねる前後で子音の明瞭さがどう変わるかを聴く。",
       "recordingIds": [
         "rec-002"
@@ -1700,11 +1742,36 @@
     },
     {
       "name": "Norah Jones",
-      "bio": "ピアノを弾き、ジャズ、カントリー、ポップをまたいで歌うシンガー・ソングライター。『Don't Know Why』では大きな劇的変化より、短い言葉が伴奏の拍と触れる位置を聴く。",
+      "bio": "ピアニスト、歌手、ソングライター。ニューヨークでのジャズ演奏や歌の仲間との交流を経て、2002年にBlue Noteから『Come Away With Me』を発表した。「Don't Know Why」を含むこの作品で広く知られ、以後はジャズに限らずカントリー、フォーク、ポップへと活動を広げた。『Visions』ではLeon Michelsと制作するなど、親密な歌を軸に伴奏や音作りの相手を変えている。",
       "voice": "柔らかな輪郭と小さな音量変化を保つ声に注目。息っぽさという一語にまとめず、母音の芯と語尾の薄まり方を区別する。",
       "phrasing": "語句のまとまりを崩さず、拍の少し前後に言葉を置く。ピアノの間に声が入る瞬間と、声が抜けた後を比べる。",
       "production": "近い主声と比較的控えめな伴奏がつくる空間の設計を聴く。近さはマイク距離だけの証拠ではなく、音量、EQ、残響と編曲の組み合わせでも生じる。",
       "listen": "一つの語尾で声が消えた後、ピアノとドラムはどれだけ残って聞こえるか。",
+      "signature": "丸く柔らかな中音域と、力を押し出しすぎない語り口。ピアノと声の間を一つのフレーズとして扱い、ジャズの間合いと素朴な歌の旋律を自然につなぐ。",
+      "related": [
+        {
+          "name": "Jesse Harris",
+          "relation": "「Don't Know Why」の作者。初期録音ではギターも担当した。"
+        },
+        {
+          "name": "Arif Mardin",
+          "relation": "『Come Away With Me』のプロデューサー。初期の録音をまとめる役割を担った。"
+        },
+        {
+          "name": "Leon Michels",
+          "relation": "『Visions』で共同制作したプロデューサー／多楽器奏者。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "bluenote.com",
+          "url": "https://www.bluenote.com/norah-jones-come-away-with-me-20th-anniversary-super-deluxe-edition/"
+        },
+        {
+          "label": "norahjones.com",
+          "url": "https://www.norahjones.com/"
+        }
+      ],
       "engineering": "息や小さな強弱が見える音量から始め、圧縮を強くする前にピアノの帯域を整理する。近接効果と残響量を別々に試す。",
       "recordingIds": [
         "rec-003"
@@ -1712,12 +1779,33 @@
     },
     {
       "name": "Billie Holiday",
-      "bio": "ジャズのスタンダードを、旋律の形と歌詞の意味の両方から読み替えた歌手。伴奏に対する言葉の位置を変え、同じ楽曲に別の時間感覚を与える点から入る。",
+      "bio": "1930年代のニューヨークで頭角を現し、Teddy Wilsonとの録音やLester Youngとの共演で独自のジャズ歌唱を確立した。「Strange Fruit」では人種差別の暴力を歌にし、バラードでも言葉の置き方によって強い物語を生んだ。晩年の『Lady in Satin』まで録音を残したが、若い時期と後期では声の質感も伴奏も大きく異なる。一つの時期だけで全体像を決めないことが大切。",
       "voice": "細い・太いだけでは捉えにくい、少しざらつく輪郭と語りに近い発音。録音年代による帯域の狭さを、生の声質そのものと同一視しない。",
       "phrasing": "拍に正確に重なるかより、どの語を残し、どの語を先へ急がせるかを聴く。間を取る位置が文の意味を変える。",
       "production": "古いモノラル録音の帯域、伴奏とのバランス、録音由来のノイズを念頭に置く。現代的な近接録音と同じ物差しで『声の粗さ』を比較しない。",
       "listen": "『All of Me』の一節を伴奏の拍だけ追ってから声に戻り、言葉の着地がどこにあるか。",
       "sourceUrl": "https://rockhall.com/inductees/billie-holiday/",
+      "signature": "音の数や声量より、入りを待つ時間、短くする語、最後に残す母音で意味を変える歌手。楽器のソロのように旋律を組み替え、歌詞を自分の言葉として語る。",
+      "related": [
+        {
+          "name": "Teddy Wilson",
+          "relation": "ピアニスト／編曲家。1930年代の主要な録音を共にした。"
+        },
+        {
+          "name": "Lester Young",
+          "relation": "テナー・サックス奏者で長年の共演者。「Lady Day」の呼び名を贈った。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "billieholiday.com",
+          "url": "https://billieholiday.com/bio/"
+        },
+        {
+          "label": "billieholiday.com",
+          "url": "https://billieholiday.com/billie-holiday-timeline/"
+        }
+      ],
       "engineering": "現代的に録る実験では、広い帯域の明瞭さと古い録音に近い帯域制限を切り替え、フレーズの間がどう聞こえるか比べる。",
       "recordingIds": [
         "rec-004"
@@ -1725,11 +1813,28 @@
     },
     {
       "name": "Frank Sinatra",
-      "bio": "ビッグバンド時代からアルバム文化まで長く活躍した歌手。スタンダードの歌詞を会話のような長さに切り、オーケストラの大きな動きと一人の言葉を結ぶ。",
+      "bio": "Tommy Dorsey楽団などで歌った後、ソロのポピュラー歌手として人気を得た。1950年代のCapitolではNelson Riddleらの編曲と組み、スウィングと失恋のバラードをアルバム単位の世界として作り上げた。後には自身のRepriseレーベルでも録音を重ね、ジャズのスタンダードを大衆的な歌へ届けた。編曲家とオーケストラを重要な表現の相手にしたキャリアである。",
       "voice": "密度のある中音域と、長い線を保ちながら言葉を明瞭にする響きが焦点。音量の大小だけでなく、子音の明瞭さと母音の連続性を聴く。",
       "phrasing": "伴奏の拍を踏みしめる箇所と、少し後ろへ残す箇所の差。長いフレーズの途中で息継ぎと意味の句読点がどう置かれるか。",
       "production": "ビッグバンドとリード声の前後関係、オーケストラが膨らむ瞬間の主声の見え方を聴く。マイク名より、ダイナミクスと編曲が親密さを保つ仕組みを考える。",
       "listen": "『I've Got You Under My Skin』後半で伴奏が厚くなる前後、言葉の聞き取りやすさはどう変わるか。",
+      "signature": "厚みのある中音域、長い旋律の持続、歌詞の会話的なアクセントが特徴。一定のテンポの上で言葉だけを少し待たせ、落ち着きや余裕を作る。",
+      "related": [
+        {
+          "name": "Tommy Dorsey",
+          "relation": "初期に所属した楽団のリーダー／トロンボーン奏者。"
+        },
+        {
+          "name": "Nelson Riddle",
+          "relation": "Capitol時代の主要な編曲家。声とオーケストラの応答を形にした。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/frank-sinatra-weve-got-him-under-our-skin/"
+        }
+      ],
       "engineering": "伴奏が大きくなる部分で自動化した音量と一定の圧縮を聴き比べる。語頭が自然に残る設定を探す。",
       "recordingIds": [
         "rec-005"
@@ -1737,11 +1842,36 @@
     },
     {
       "name": "Ella Fitzgerald & Louis Armstrong",
-      "bio": "Ella FitzgeraldとLouis Armstrongという異なる声を一曲に並べた共演。二人を一人の歌手として扱わず、交互に現れるフレーズと一緒に歌う瞬間を分けて聴く。",
+      "bio": "Ella Fitzgeraldはスウィング楽団から出発し、スタンダードの解釈とスキャットで大きな存在になった。Louis Armstrongはジャズの即興を切り開いたトランペット奏者で、歌手としても独自の表現を持つ。二人は1956年の『Ella and Louis』などで共演。Norman Granzの制作とOscar Petersonらの伴奏のもと、異なる声の質感をそろえずに会話させたデュエットを残した。",
       "voice": "Ellaの明晰でしなやかな線と、Armstrongの粒立ち・ざらつきの対比。録音の帯域だけで判断せず、同じ曲の中での発音や音価を見る。",
       "phrasing": "互いの語尾を受けるタイミング、同じ旋律を歌ったときの子音と母音の長さに注目。違いが会話を作る。",
       "production": "二人の声とバンドの配置、主役が入れ替わるときのバランスを聴く。古い録音の定位や残響は現行配信の再発処理でも変わり得る。",
       "listen": "『Cheek to Cheek』の同じ言葉を二人が歌う場面で、拍への入り方を一つずつ書き分ける。",
+      "signature": "Ellaの明晰で滑らかな歌と、Armstrongのざらついた発音・温かな間合いが対照的。双方ともスウィングの時間感覚を持ち、声色の違いが親密な掛け合いになる。",
+      "related": [
+        {
+          "name": "Norman Granz",
+          "relation": "Verve創設者で『Ella and Louis』のプロデューサー。"
+        },
+        {
+          "name": "Oscar Peterson",
+          "relation": "同作でピアノを担当。二人の歌の間に柔らかな応答を置く。"
+        },
+        {
+          "name": "Ray Brown／Herb Ellis／Buddy Rich",
+          "relation": "同作のベース／ギター／ドラム。小編成で歌の会話を支えた。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "store.ververecords.com",
+          "url": "https://store.ververecords.com/products/ella-louis-mastercut-edition-0007"
+        },
+        {
+          "label": "concord.com",
+          "url": "https://concord.com/artist/ella-fitzgerald/"
+        }
+      ],
       "engineering": "二つの声の音量と定位を一つずつ動かし、掛け合いの主役交代が分かる位置を探す。共通の部屋鳴りも試す。",
       "recordingIds": [
         "rec-006"
@@ -1749,12 +1879,33 @@
     },
     {
       "name": "Ray Charles",
-      "bio": "ゴスペル、ブルース、ジャズをポピュラー音楽の歌へ接続し、ピアノと声でバンドを率いた音楽家。『I Got a Woman』では一人の声と応答する集団との関係が軸になる。",
+      "bio": "歌とピアノを中心に、1950年代のAtlanticでゴスペル、ブルース、ジャズを結ぶソウルの語法を築いた。「What'd I Say」のような呼びかけと応答から、「Georgia on My Mind」のバラードまで幅広く歌った。1962年には『Modern Sounds in Country and Western Music』でカントリーの曲を自分の表現に置き換えた。ジャンルの境界を越えても、言葉とピアノのリズムが歌の中心にある。",
       "voice": "ざらついた強い音だけでなく、短い呼びかけに含まれる柔らかな立ち上がりも聴く。声量を一定の性質として決めない。",
       "phrasing": "短く切る叫び、伸ばす母音、合いの手への受け渡し。伴奏やコーラスに隙間を渡すことで曲が動く。",
       "production": "主声、バンド、応答の距離とバランスを聴く。古い録音の飽和したような質感を、歌手一人の発声機構だけで説明しない。",
       "listen": "呼びかけの後に誰が返し、次の主声がどの拍で入るかを手で数える。",
       "sourceUrl": "https://rockhall.com/inductees/ray-charles/",
+      "signature": "ざらつく声、短い叫び、やわらかな語りを行き来する。ピアノのフレーズと歌が互いを押し、独唱の旋律にもゴスペルの集団的な熱を持ち込む。",
+      "related": [
+        {
+          "name": "Ahmet Ertegun／Jerry Wexler",
+          "relation": "Atlantic時代の制作に関わったレーベルの中心人物。"
+        },
+        {
+          "name": "Milt Jackson",
+          "relation": "ジャズのヴィブラフォン奏者。共演録音でCharlesのジャズ的な側面を聴ける。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "raycharles.com",
+          "url": "https://raycharles.com/legacy/1960s/"
+        },
+        {
+          "label": "catalog.rockhall.com",
+          "url": "https://catalog.rockhall.com/rrhof-ais/Details/fullCatalogue/200029275"
+        }
+      ],
       "engineering": "主声と応答声を別の奥行きに置く。全体の質感を飽和させる前後で、語頭のリズムが失われないか確かめる。",
       "recordingIds": [
         "rec-007"
@@ -1762,12 +1913,33 @@
     },
     {
       "name": "Aretha Franklin",
-      "bio": "ゴスペルを背景に持ち、ピアノ、歌、応答するコーラスを一つの表現へ組み合わせたソウルの歌手。『Respect』では主声と後ろの声の掛け合いが構造を作る。",
+      "bio": "教会で培った歌とピアノを土台に、Columbiaでの活動を経てAtlanticへ移った。1967年の「I Never Loved a Man (The Way I Love You)」「Respect」などで、自分の歌とリズムを前面に出すソウル歌手として大きく飛躍した。ポップのヒットに加え、ゴスペルへ戻る『Amazing Grace』も重要な作品。歌手であると同時にピアニストとして、伴奏の進み方そのものに関わった。",
       "voice": "強く張る瞬間と、言葉を軽く置く瞬間の幅。大きな声を一枚岩として捉えず、音色が変わる場所を追う。",
       "phrasing": "語頭を押す、短く切る、相手の声を待つといった選択がリズムになる。コーラスの合いの手と主声の時間差を聴く。",
       "production": "主声、コーラス、ホーン、リズム隊が互いのスペースを残す編曲に注目。声の迫力には演奏とミックスのバランスも関わり、特定マイクを推定しない。",
       "listen": "『Respect』のタイトル語を主声だけ、応答だけ、全体の順に聴き、主役が移る箇所を探す。",
       "sourceUrl": "https://rockhall.com/inductees/aretha-franklin/",
+      "signature": "強い高音だけでなく、低い語り、細かな節回し、伴奏を先導するリズムが特徴。既存曲の歌詞にも新しい主張を与え、コーラスとの応答をドラマに変える。",
+      "related": [
+        {
+          "name": "Jerry Wexler",
+          "relation": "Atlantic時代のプロデューサー。初期の代表的なセッションを支えた。"
+        },
+        {
+          "name": "Otis Redding",
+          "relation": "「Respect」の原作者／先行録音の歌手。Franklin版は歌詞と構成を変えた独自の解釈。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://www.rockhall.com/wp-content/uploads/2024/03/Aretha_Franklin_1987.pdf"
+        },
+        {
+          "label": "Alabama Music Hall of Fame",
+          "url": "https://www.alamhof.org/jerrywexler"
+        }
+      ],
       "engineering": "力のある高音を均一に押さえ込まず、声の音量変化とコーラスの応答を残す。ホーンと主声の中域の重なりを調整する。",
       "recordingIds": [
         "rec-008"
@@ -1775,12 +1947,33 @@
     },
     {
       "name": "Otis Redding",
-      "bio": "メンフィスのソウルを代表する歌手。『Try a Little Tenderness』は静かな語りからバンドと一緒に熱量を上げる構成が鮮やかで、曲全体の弧を聴く教材になる。",
+      "bio": "ジョージア州で演奏を重ね、Johnny Jenkinsの録音に同行した1962年のStaxで「These Arms of Mine」を録音した。メンフィスのハウス・バンドと「Respect」「Try a Little Tenderness」などを作り、1967年のMonterey Popでも大きな印象を残した。同年に亡くなった後、「(Sittin' On) The Dock of the Bay」が発表された。短いキャリアの中で、バラードと熱い舞台の両方に強い個性を刻んだ。",
       "voice": "語りに近い抑えた声から荒い輪郭までの変化。最初と最後だけを比べず、途中で質感が変わり始める境目を見つける。",
       "phrasing": "短い語を急いで詰める後半と、余白を残す前半の対比。繰り返すフレーズでも終わりの長さが変わる。",
       "production": "ホーンやドラムが増すことで歌が大きく聞こえる関係を聴く。後半の高揚をボーカルの音量操作だけに帰さず、編曲と録音の密度を分ける。",
       "listen": "前半と終盤の同じ短い言葉を比べ、声、伴奏、間のどれが変わったか。",
       "sourceUrl": "https://rockhall.com/inductees/otis-redding/",
+      "signature": "少しかすれた声と、抑えた語りから切迫した叫びへ向かう構成力。旋律をきれいに保つだけでなく、言葉を繰り返してバンド全体の熱を上げる。",
+      "related": [
+        {
+          "name": "Steve Cropper",
+          "relation": "Staxのギタリスト／共同作者。「The Dock of the Bay」を共作した。"
+        },
+        {
+          "name": "Booker T. Jones／Donald “Duck” Dunn／Al Jackson Jr.",
+          "relation": "鍵盤／ベース／ドラム。Staxのハウス・バンドとして主要な録音を支えた。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "otisreddingfoundation.org",
+          "url": "https://www.otisreddingfoundation.org/news/happy-80th-birthday-to-otis-redding-2"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/otis-redding/"
+        }
+      ],
       "engineering": "主声の大きさだけを上げる場合と、ホーン・ドラムを厚くする場合を比べ、終盤の高揚をどちらが作るか聴く。",
       "recordingIds": [
         "rec-009"
@@ -1788,12 +1981,33 @@
     },
     {
       "name": "James Brown",
-      "bio": "歌とバンドの拍を細かく噛み合わせ、ファンクの身体感覚を作った歌手・バンドリーダー。『I Got You (I Feel Good)』では旋律よりも声の長さと切れ目がリズムを動かす。",
+      "bio": "Famous Flamesと「Please, Please, Please」などを発表し、ライブの強烈な歌と舞台で知られた。1960年代には旋律中心のソウルから、各楽器と声が短いリズムを分担するファンクへ進み、「Papa's Got a Brand New Bag」「I Got You (I Feel Good)」などを残した。歌手だけでなくバンドリーダーとして、曲の区切りや反復を統率。後のヒップホップでも録音が繰り返し参照された。",
       "voice": "鋭い語頭、短いシャウト、直後の余白。粗さだけを模倣せず、音の開始と停止の設計として聴く。",
       "phrasing": "ホーンの短い句と声の返答、ドラムの位置に注目。フレーズが少しでも長くなるとグルーヴの形がどう変わるか。",
       "production": "主声とホーンのアタックを並べて聴く。録音の歪みや密度があっても、音を切るリズムは残る。特定の歪み装置やコンプ設定は録音だけから特定できない。",
       "listen": "一回の『I feel good』で声の終わりと次のホーンの入りの間隔を数える。",
       "sourceUrl": "https://rockhall.com/inductees/james-brown/",
+      "signature": "声を打楽器のように扱う短い発音、シャウト、合図が持ち味。旋律の連続より、音を出す瞬間と止める瞬間でグルーヴを作り、舞台では身体の動きと一体になる。",
+      "related": [
+        {
+          "name": "Bobby Byrd",
+          "relation": "Famous Flamesの創設者でBrownの歌唱・舞台の重要な相手。"
+        },
+        {
+          "name": "The Famous Flames",
+          "relation": "Brownと活動した歌とダンスのグループ。初期のショーと録音を共に築いた。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/james-brown/"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/famous-flames/"
+        }
+      ],
       "engineering": "短い語尾とホーンのアタックを揃えすぎずに置く。圧縮や飽和を足しても、語頭の輪郭が残るか確認する。",
       "recordingIds": [
         "rec-010"
@@ -1801,12 +2015,37 @@
     },
     {
       "name": "Stevie Wonder",
-      "bio": "歌、鍵盤、作曲、編曲を横断して作品を作る音楽家。『Superstition』では鍵盤の反復と声が別々に動き、同じグルーヴの上で緊張を変える。",
+      "bio": "幼い頃にMotownと契約し、歌、ハーモニカ、鍵盤で活動を始めた。1970年代には作曲・演奏・制作を主体的に担うようになり、『Talking Book』『Innervisions』『Songs in the Key of Life』などを発表した。ソウルの歌を、複雑な和声やシンセサイザーの新しい音像、社会的なテーマへ広げた。歌い手と多楽器奏者、作家とプロデューサーが分かれないキャリアが特徴。",
       "voice": "粒立ちのある語頭と、節目で伸びる母音。旋律の高さだけでなく、声がリフへ近づく瞬間の輪郭を見る。",
       "phrasing": "反復する伴奏のどこへ子音を置き、どこで声を抜くか。短い装飾が次の拍へ向かう働きを聴く。",
       "production": "クラビネット、ドラム、管楽器などの層と主声の相対的な位置を追う。音が厚いところでも言葉が残る理由を、音量だけでなく帯域と編曲の隙間から考える。",
       "listen": "リフだけを数えた後、同じ二小節で声が拍を押す場所を印付けする。",
       "sourceUrl": "https://rockhall.com/inductees/stevie-wonder/",
+      "signature": "明るく弾む声と、細かな装飾をリズムへ戻す歌い方。豊かな旋律を歌いながら、子音のタイミングで鍵盤やドラムと会話し、熱と軽さを同居させる。",
+      "related": [
+        {
+          "name": "Robert Margouleff／Malcolm Cecil",
+          "relation": "1970年代前半の録音で協働。シンセサイザーを含む制作の重要な相手。"
+        },
+        {
+          "name": "Syreeta Wright",
+          "relation": "歌手／共同作者。Wonderが彼女のアルバムをプロデュースするなど制作を共にした。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/stevie-wonder/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/stevie-wonder-innervisions-50th-anniversary-reflection-lionel-richie-producer-robert-margouleff/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/10-unsung-heroes-motown-funk-brothers-velvelettes-more/"
+        }
+      ],
       "engineering": "低音とクラビネットの密度を保ちながら、主声が見える中域を探す。背景声の幅を変えて、リードの位置を確かめる。",
       "recordingIds": [
         "rec-011"
@@ -1814,12 +2053,37 @@
     },
     {
       "name": "Michael Jackson",
-      "bio": "Jackson 5からソロへ活動を広げ、歌・ダンス・映像・録音を一体にしたポップを作った歌手。『Rock With You』では滑らかなリードとリズムを刻む細かな声を両方聴ける。",
+      "bio": "Jackson 5のリード歌手として幼少期から録音と舞台を経験した。ソロではQuincy Jonesと作った『Off the Wall』『Thriller』『Bad』を通じて、ソウル、ファンク、ダンス、ロックをポップの中心へ結び付けた。長い音楽映像とダンスも作品の表現に組み込み、歌の小さな呼吸音や短い発音までリズムとして使った。主声の技巧と綿密な多重録音の両面を持つ。",
       "voice": "明るい輪郭と軽い語尾、時折入る小さな声のアタック。高い音域だけで特徴を説明せず、声がリズムへ変わる瞬間を見る。",
       "phrasing": "短い息や子音、フレーズの最後の抜き方がベースとドラムに絡む。流れる旋律の間にある細かな区切りを探す。",
       "production": "『Off the Wall』期の磨かれたリズム隊、コーラス、空間処理がリードを包む関係を聴く。多重録音の厚みと単独の主声の質感を分ける。",
       "listen": "歌の長い音を一度無視して、小さな子音と合いの手だけを追う。",
       "sourceUrl": "https://rockhall.com/inductees/michael-jackson/",
+      "signature": "軽く明るいテナー、鋭い子音、息や短い掛け声が特徴。バラードの滑らかな線とダンス曲の細かい区切りを使い分け、身体の動きが想像できる歌を作る。",
+      "related": [
+        {
+          "name": "The Jackson 5",
+          "relation": "兄弟によるグループ。Michaelはリード歌手として活動した。"
+        },
+        {
+          "name": "Quincy Jones",
+          "relation": "『Off the Wall』『Thriller』『Bad』のプロデューサー。"
+        },
+        {
+          "name": "Rod Temperton",
+          "relation": "「Rock with You」「Thriller」などを提供したソングライター。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/michael-jackson/5/"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://www.rockhall.com/wp-content/uploads/2024/03/Michael_Jackson_2001.pdf"
+        }
+      ],
       "engineering": "主声の語頭、息、短い掛け声を別の層として扱い、重ね録りの前後でリズムの切れ味がどう変わるか比べる。",
       "recordingIds": [
         "rec-012"
@@ -1827,12 +2091,37 @@
     },
     {
       "name": "Marvin Gaye",
-      "bio": "Motownの歌手として活動し、『What's Going On』では社会的な問いを含むアルバムを形にした。複数に重なる声が、一人の語りを会話のように広げる。",
+      "bio": "Motownでドラムやコーラスの仕事も経験し、1960年代にソロ歌手とデュエット歌手として人気を得た。1971年の『What's Going On』では、自ら制作を主導して戦争や社会、環境の問題を一つのアルバム世界にまとめた。続く『Let's Get It On』や「Sexual Healing」では親密な歌と新しい音作りを展開。甘い旋律を歌う声と、複数の声で内面を語る表現を結び付けた。",
       "voice": "柔らかな中音域、上へ抜ける声、話し声に近い断片が同じ曲に同居する。どれを主声として聴いているかを意識する。",
       "phrasing": "同じ言葉が少し違う時間で重なるところが焦点。即興的に聞こえる断片も、曲の流れの中で役割を持つ。",
       "production": "重なるリードや背景声、パーカッションと管の層が、声の距離を一つに固定しない。声の多重性を発声の特殊効果と誤解せず、録音・配置の選択として聴く。",
       "listen": "冒頭近くで主声と別の声が重なる箇所を選び、二人分の線として書いてみる。",
       "sourceUrl": "https://rockhall.com/inductees/marvin-gaye/",
+      "signature": "柔らかなテナー、上へ抜ける声、話しかける断片を使い分ける。リードと自分の背景声を重ね、独唱にも複数の気持ちが会話するような奥行きを作る。",
+      "related": [
+        {
+          "name": "Tammi Terrell",
+          "relation": "「Ain't No Mountain High Enough」などで組んだデュエット歌手。"
+        },
+        {
+          "name": "Ashford & Simpson",
+          "relation": "GayeとTerrellの代表的なデュエットを作詞・作曲したコンビ。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/marvin-gaye/"
+        },
+        {
+          "label": "motownmuseum.org",
+          "url": "https://www.motownmuseum.org/artist/tammi-terrell/"
+        },
+        {
+          "label": "motownmuseum.org",
+          "url": "https://www.motownmuseum.org/artist/valerie-simpson/"
+        }
+      ],
       "engineering": "主声を複数回重ね、わずかなタイミング差や定位で奥行きを試す。単声に戻して感情の変化と音の厚みを区別する。",
       "recordingIds": [
         "rec-013"
@@ -1840,12 +2129,29 @@
     },
     {
       "name": "Al Green",
-      "bio": "Hi Records期の作品で、強いビートの中に親密な歌を置いたソウル歌手。『Let's Stay Together』では語りかける距離から、短い高音へ移る変化を聴く。",
+      "bio": "1960年代末のメンフィスでWillie Mitchellと組み、Hi Recordsで独自のソウルを築いた。「Tired of Being Alone」「Let's Stay Together」「I'm Still in Love with You」などで、親密な歌とゆったりしたグルーヴを結び付けた。1970年代後半からは牧師としても活動し、ゴスペル録音にも力を注いだ。世俗のラブソングと宗教的な歌の両方に、熱を内側に保つ声の表現がある。",
       "voice": "柔らかい話し声に近い音と、細く上がる声の対比。息が多いかだけでなく、母音の芯がどこに残るかを確認する。",
       "phrasing": "一語を急いで押さず、ドラムの裏側や弦の合間に置く。小さな装飾の行き先が歌詞のどこへ戻るか。",
       "production": "Hi Rhythm Sectionの反復と、近くに感じる主声の距離感を聴く。温かさは声だけでなく、伴奏の帯域、空間、音量差によっても生まれる。",
       "listen": "歌が高く抜けた直後、伴奏の同じ反復がどう聞こえ直すか。",
       "sourceUrl": "https://rockhall.com/inductees/al-green/",
+      "signature": "やわらかな中音域から細い高音へ滑る歌、短い吐息、言葉を急がない間合い。大きく張る前の小さな揺れに緊張があり、控えめな歌にも強い存在感がある。",
+      "related": [
+        {
+          "name": "Willie Mitchell",
+          "relation": "Hiでの主要なプロデューサー／共同制作相手。歌とホーン、オルガン、グルーヴの音像を形にした。"
+        },
+        {
+          "name": "Annie Lennox",
+          "relation": "1988年の「Put a Little Love in Your Heart」でデュエットした歌手。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/al-green/"
+        }
+      ],
       "engineering": "柔らかい主声を前に置き、低域やオルガンの量を変えて親密さを比較する。残響を足す前の乾いた声も聴く。",
       "recordingIds": [
         "rec-014"
@@ -1853,11 +2159,32 @@
     },
     {
       "name": "Donny Hathaway",
-      "bio": "歌手、鍵盤奏者、編曲家としてソウルとジャズの境界で活動した。『A Song for You』では自分の言葉を探しているような、旋律と間の選択に耳を向ける。",
+      "bio": "幼少期からゴスペルを歌い、Howard大学で音楽を学んだ。シカゴでは鍵盤奏者、編曲家、プロデューサーとしてCurtis Mayfieldらと働き、1970年に『Everything Is Everything』でアルバム・デビュー。ソロの『Live』や「Someday We'll All Be Free」に加え、Roberta Flackとのデュエットでも知られる。歌の感情と鍵盤・和声の知識が結び付いた、音楽家としての幅が重要。",
       "voice": "厚い中音域と、音を強める前の繊細な揺れ。声のざらつきや震えを単独の技術名へ還元せず、文脈の中で聴く。",
       "phrasing": "一文の途中でわずかに待つ、最後の語を長く置くなど、歌詞の重心を動かす。ピアノの音が消える時間とも比べる。",
       "production": "ピアノとリードが近く感じられる配置、弦や伴奏が広がる箇所を分ける。親密な印象を生声の距離だけで説明せず、音量と空間の作り方を聴く。",
       "listen": "最初の静かな一節と後半の大きな一節で、語尾が残る長さを比べる。",
+      "signature": "厚みのある中音域、細かな揺れ、長い旋律の最後に残る余韻が特徴。強く張る箇所も伴奏の和声から離れず、歌とピアノが一つの流れとして聴こえる。",
+      "related": [
+        {
+          "name": "Roberta Flack",
+          "relation": "大学時代からの知人でデュエットの相手。「Where Is the Love」「The Closer I Get to You」などで共演。"
+        },
+        {
+          "name": "Curtis Mayfield",
+          "relation": "Hathawayが制作や音楽監督の仕事で関わった歌手／作家。Curtomでの経験がソロ以前の基盤になった。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "rhino.com",
+          "url": "https://www.rhino.com/aod/a-donny-hathaway-collection-donny-hathaway-0"
+        },
+        {
+          "label": "rhino.com",
+          "url": "https://www.rhino.com/article/5-things-you-might-not-know-about-donny-hathaway"
+        }
+      ],
       "engineering": "ピアノと主声の音量関係を固定してから、弦の広がりを増やす。音量自動化で静かな語尾をどう残せるか試す。",
       "recordingIds": [
         "rec-015"
@@ -1865,12 +2192,37 @@
     },
     {
       "name": "Rufus & Chaka Khan",
-      "bio": "ファンク・バンドRufusと、そのリードを担ったChaka Khanの組み合わせ。『Ain't Nobody』では機械的に反復する伴奏の中で、声が柔軟に跳ねる対比を聴く。",
+      "bio": "Chaka Khanをリードに据えたRufusは、1970年代のファンクとソウルで存在感を示した。「Tell Me Something Good」などの生々しいグルーヴから、1983年の「Ain't Nobody」のシンセを軸にした音まで幅がある。Khanは1978年の『Chaka』からソロでも活動し、「I'm Every Woman」「I Feel for You」へ展開。バンドでの活動とソロを分けて聴くと、同じ声が違う音像で働くことが分かる。",
       "voice": "太く鋭い立ち上がりと、細い装飾へ移る幅。音量が大きい箇所だけでなく、低い語りの輪郭も比べる。",
       "phrasing": "シンセの反復に対して歌が前へ出たり、後ろへ残ったりする。短いメリスマの着地点を一つずつ確認する。",
       "production": "80年代のシンセ、ドラムの明確な反復と、前面に置かれた主声や背景声の関係を聴く。広がるコーラスの厚みを一人の喉の音量と混同しない。",
       "listen": "サビのタイトル語の前後で、主声とシンセのどちらが時間を引っ張るか。",
       "sourceUrl": "https://rockhall.com/inductees/chaka-khan/",
+      "signature": "太く鋭い声と高い旋律の跳躍、ジャズ的な節回しが特徴。強いアタックの直後に軽い装飾へ移るため、力強さと身軽さが同じフレーズの中にある。",
+      "related": [
+        {
+          "name": "Rufus",
+          "relation": "Khanがリードを務めたバンド。教材の録音はこのバンド名義。"
+        },
+        {
+          "name": "Prince",
+          "relation": "ソロの代表曲「I Feel for You」の原作者。Khanは自身の解釈でカバーした。"
+        },
+        {
+          "name": "Stevie Wonder",
+          "relation": "「Tell Me Something Good」を提供した音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/chaka-khan/"
+        },
+        {
+          "label": "chakakhan.com",
+          "url": "https://chakakhan.com/about/"
+        }
+      ],
       "engineering": "強い主声の帯域をシンセやスネアと競合させず、背景声を広げる。圧縮を増やしても語尾のニュアンスが残るか聴く。",
       "recordingIds": [
         "rec-016"
@@ -1878,12 +2230,33 @@
     },
     {
       "name": "Whitney Houston",
-      "bio": "ゴスペルに親しみ、ポップとR&Bの大きな旋律を歌った歌手。『I Have Nothing』では静かな言葉から長い高音へ進む構成を、伴奏の変化と一緒に聴く。",
+      "bio": "教会のゴスペルや母Cissy Houstonの音楽を身近に育ち、1985年の『Whitney Houston』でアルバム・デビューした。「Saving All My Love for You」「How Will I Know」など、バラードとダンス曲の両方で支持を集めた。1992年の映画『The Bodyguard』とサウンドトラックでは「I Will Always Love You」を独自の大きな構成で歌った。ゴスペルの装飾とポップの明瞭な旋律を結ぶ歌手である。",
       "voice": "密度のある中音域、明瞭な子音、伸びる高音の輪郭を分ける。大きな一音より、その前に音色を変える準備がどこから始まるかが重要。",
       "phrasing": "長い音へ向かう前の短い語、フレーズ末の余白を観察する。装飾は技巧の数でなく、文がどこへ着地するかから聴く。",
       "production": "バラードの主声を前に置き、弦・ドラム・背景声が段階的に厚くなる編曲。声の迫力とミックスの持ち上げ方を分け、特定の圧縮設定は推測しない。",
       "listen": "サビ直前とサビの最後で、主声だけでなく背後の音数がどう変わるか。",
       "sourceUrl": "https://rockhall.com/inductees/whitney-houston/",
+      "signature": "密度のある中音、伸びる高音、明瞭な発音を持ち、控えめな開始から大きな頂点を作る。メリスマの数だけでなく、旋律の骨格を保ったまま感情を増す設計が特徴。",
+      "related": [
+        {
+          "name": "Cissy Houston",
+          "relation": "母でありゴスペル／ソウル歌手。幼い頃からの音楽的な基盤。"
+        },
+        {
+          "name": "Dionne Warwick",
+          "relation": "歌手でHoustonのいとこ。家族に連なる音楽の系譜。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "whitneyhouston.com",
+          "url": "https://www.whitneyhouston.com/news/whitney-houstons-debut-album-released-this-day-in-1985/"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://www.rockhall.com/wp-content/uploads/2024/10/2024-Induction-Ceremony-program-essay-Dionne-Warwick.pdf"
+        }
+      ],
       "engineering": "小さな入りと大きなサビを一律に潰さず、フレーズごとの音量調整と穏やかな圧縮を比べる。伴奏の増加も一緒に聴く。",
       "recordingIds": [
         "rec-017"
@@ -1891,11 +2264,36 @@
     },
     {
       "name": "Mariah Carey",
-      "bio": "作詞・作曲にも関わる歌手。『Vision of Love』では一つの旋律を何度も変奏し、ポップ・バラードの枠内で装飾の行き先を作る。",
+      "bio": "1990年のデビュー作と「Vision of Love」で、広い音域と装飾を持つ歌手・作家として登場した。『Music Box』『Daydream』などでポップのバラードを作る一方、R&Bやヒップホップとの接点を深めた。歌手としてだけでなく、多くの作品で作詞・作曲と制作にも参加。自分の声を何層にも配置するアレンジと、リードの細かな音色の使い分けを一体で考える音楽家である。",
       "voice": "低めの静かな声、明るい高音、細い装飾の間を移動する。声域の広さという結果だけでなく、それぞれの音色の切り替わりを聴く。",
       "phrasing": "同じ旋律の再登場で母音の伸ばし方、音を足す場所、終わり方が変わる。まず骨格だけ口ずさみ、装飾を一つずつ戻すとわかりやすい。",
       "production": "リードが中央に残り、背景声や残響が周囲に広がるバラードの構図に注目。複数の声を一人の連続した歌唱と取り違えないようにする。",
       "listen": "一回目と最後のタイトル語を比べ、増えた音と伴奏の厚みを別に記録する。",
+      "signature": "やわらかな低い声、明るい高音、細い非常に高い音を切り替える。滑らかなメリスマだけでなく、主声と背景の自分の声を別の役割として配置する発想も重要。",
+      "related": [
+        {
+          "name": "Walter Afanasieff",
+          "relation": "1990年代の主要な共同制作相手。Careyと作曲・プロデュースに関わった。"
+        },
+        {
+          "name": "Boyz II Men",
+          "relation": "「One Sweet Day」で共演したヴォーカル・グループ。"
+        },
+        {
+          "name": "Jermaine Dupri",
+          "relation": "R&B作品で協働するプロデューサー／共同作者。「Don't Forget About Us」などの制作に参加。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/artists/mariah-carey/856/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/awards/38th-annual-grammy-awards/"
+        }
+      ],
       "engineering": "主声と重ね声を別のトラックとして想定し、ハーモニーの定位と残響を変える。高音の明瞭さを背景声で覆わないか確かめる。",
       "recordingIds": [
         "rec-018"
@@ -1903,12 +2301,37 @@
     },
     {
       "name": "Prince",
-      "bio": "作曲、演奏、歌、制作を横断し、ファンクとロックの境界を往復した音楽家。『Kiss』は少ない音数の中で、声とギターが前面のリズムを受け持つ。",
+      "bio": "ミネアポリスを拠点に、歌、作曲、多楽器演奏、制作を横断した音楽家。1970年代末のデビュー以降、ファンク、ロック、ソウル、ポップを結び付け、『1999』『Purple Rain』『Sign o' the Times』などを発表した。The Revolution、後にはNew Power Generationと活動し、ひとりで重ねる録音とバンドの演奏を使い分けた。声もギターや鍵盤と同じく、曲の人物や役割を作る道具になっている。",
       "voice": "高く軽い声、短い叫び、低い語りが同じ曲に現れる。『裏声』という名称だけで片付けず、子音と音価に注目する。",
       "phrasing": "短いフレーズを切って空白を作り、ギターの一撃に受け渡す。休符の長さが変わると踊り方も変わる。",
       "production": "低音を詰め込みすぎない編曲と、中心の主声、配置を変える背景声に耳を向ける。声の変形をすべて機材由来と決めず、重ね録りと歌い分けも候補にする。",
       "listen": "声のない一拍を探し、その隙間でギターとドラムが何をしているか。",
       "sourceUrl": "https://rockhall.com/inductees/prince/",
+      "signature": "高いファルセット、低い語り、鋭い叫びを一曲の中で切り替える。声色の変化と休符がリズムの一部になり、親密な歌と演劇的な表現の間を自由に移動する。",
+      "related": [
+        {
+          "name": "The Revolution",
+          "relation": "『Purple Rain』期などに活動を共にしたバンド。"
+        },
+        {
+          "name": "New Power Generation",
+          "relation": "The Revolution以後の主要なバンド。より強いファンクやラップも取り込んだ。"
+        },
+        {
+          "name": "Joni Mitchell",
+          "relation": "Princeが影響を受けた作家／歌手。特に和声や作品世界を考える際の接点。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/prince/"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/wp-content/uploads/2024/03/Prince_2004.pdf"
+        }
+      ],
       "engineering": "乾いた近い主声と、広がる背景声を対比する。声の歌い分けとフィルターや歪みの効果を一つずつ聴き分ける。",
       "recordingIds": [
         "rec-019"
@@ -1916,12 +2339,37 @@
     },
     {
       "name": "Jeff Buckley",
-      "bio": "1994年のアルバム『Grace』を残した歌手・ギタリスト。ロックの大きな音量変化の中に、息の長い旋律と語りのような短い音を共存させる。",
+      "bio": "ニューヨークの小さな会場での演奏と『Live at Sin-é』を経て、1994年に『Grace』を発表した。自作曲とLeonard Cohenなどのカバーを並べ、ロック、フォーク、ジャズ、宗教的な歌までを一つの表現へまとめた。父も歌手のTim Buckleyだが、その存在だけで作風を説明することはできない。1997年に亡くなり、生前の完成スタジオ・アルバムは『Grace』一作となった。",
       "voice": "薄く立つ音と、密度を増して張る音の差を聴く。高い音そのものより、高さに伴う輪郭の変化が教材の焦点。",
       "phrasing": "長い上行の終わりにどこで力を抜くか、バンドが強まる前後で母音がどう変わるか。装飾の入り口と出口を区別する。",
       "production": "ギターやドラムの広がる空間に対して主声がどの距離に残るかを追う。残響や二重声の印象があっても、特定の録音チェーンを推定しない。",
       "listen": "『Grace』で高さが上がる前後、声の強さ、音色、バンドの密度を三列でメモする。",
       "sourceUrl": "https://jeffbuckley.com/discography/grace/",
+      "signature": "薄く親密な声から、密度の高い張った音へ大きく変化する。高音の能力以上に、長い旋律の途中で声色と距離感を変え、歌の緊張を積み上げる力が特徴。",
+      "related": [
+        {
+          "name": "Gary Lucas",
+          "relation": "「Grace」「Mojo Pin」の共同作者／ギタリスト。初期にGods and Monstersで協働した。"
+        },
+        {
+          "name": "Andy Wallace",
+          "relation": "『Grace』のプロデュース、録音、ミックスを担当。"
+        },
+        {
+          "name": "Leonard Cohen",
+          "relation": "「Hallelujah」の原作者。Buckley版はカバーで、直接の共同制作とは異なる。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "jeffbuckley.com",
+          "url": "https://jeffbuckley.com/discography/grace/"
+        },
+        {
+          "label": "jeffbuckley.com",
+          "url": "https://jeffbuckley.com/articles-and-interviews/the-son-also-rises-by-matt-diehl/"
+        }
+      ],
       "engineering": "静かな語尾から大きな高音までの幅を残し、残響を加える前後でギターとの距離感を比べる。",
       "recordingIds": [
         "rec-020"
@@ -1929,11 +2377,36 @@
     },
     {
       "name": "Minnie Riperton",
-      "bio": "ソウルとポップを行き来した歌手で、高音域を含む独特の表現で知られる。『Lovin' You』は広い音域を誇示する曲としてだけでなく、静かな旋律の途中に違う質感が現れる曲として聴く。",
+      "bio": "シカゴのRotary Connectionで活動した後、1970年の『Come to My Garden』でソロへ進んだ。1974年の『Perfect Angel』をStevie WonderとRichard Rudolphの制作で発表し、翌年「Lovin' You」が広く知られた。高い音域の印象が強いが、アルバムにはソウル、ロック、繊細なバラードの幅がある。1979年に亡くなるまで、柔らかな歌と大胆な高音を組み合わせる作品を残した。",
       "voice": "柔らかな中音域から非常に高い細い音へ移る対比。高音を健康な練習の目標にせず、音色が変化する聴取の対象とする。",
       "phrasing": "短い旋律の繰り返しで、母音の長さや高い装飾の置き場所を変える。歌の周囲の余白も表現の一部。",
       "production": "伴奏を詰めすぎず、高音と低い主声の両方が見える空間を聴く。倍音や残響の印象を、本人の声だけの成分と決めない。",
       "listen": "高い装飾の直前と直後で、低い声の語り口がどう戻るか。",
+      "signature": "非常に高い細い音へ無理なくつながるように聴こえる声と、温かな中音域が特徴。高音だけを切り取らず、静かな語りや旋律の素朴さとの対比が魅力になる。",
+      "related": [
+        {
+          "name": "Richard Rudolph",
+          "relation": "夫で共同作者／プロデューサー。「Lovin' You」を共作した。"
+        },
+        {
+          "name": "Stevie Wonder",
+          "relation": "『Perfect Angel』を共同制作し、演奏や楽曲提供でも参加した。"
+        },
+        {
+          "name": "Ramsey Lewis",
+          "relation": "『Come to My Garden』でピアノを担当したジャズ音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "uDiscover Music（UMG）",
+          "url": "https://www.udiscovermusic.com/stories/warm-memories-of-minnie-riperton/"
+        },
+        {
+          "label": "uDiscover Music（UMG）",
+          "url": "https://www.udiscovermusic.com/stories/minnie-riperton-lovin-you-song/"
+        }
+      ],
       "engineering": "高い声を強い高域ブーストだけで再現しようとせず、伴奏の帯域と声の音量から整理する。歯擦音も合わせて確かめる。",
       "recordingIds": [
         "rec-021"
@@ -1941,12 +2414,37 @@
     },
     {
       "name": "Queen",
-      "bio": "Freddie Mercuryを中心に、多重コーラスと舞台的な展開を取り入れたロック・バンド。『Somebody to Love』ではリードの問いを大勢の声が受け、曲全体の規模を変えていく。",
+      "bio": "Freddie Mercury、Brian May、Roger Taylor、John Deaconによる英国のバンド。1973年にデビューし、『A Night at the Opera』の「Bohemian Rhapsody」などで、ハードロック、オペラ的な合唱、ポップを大胆につないだ。曲を書いたのはMercuryだけではなく四人それぞれ。大きな主声と緻密な重ね録り、ライブで観客へ呼びかける歌の両方が、Queenのヴォーカル表現を形にした。",
       "voice": "Mercuryの張りのある主声と、重ねられた合唱の質感を分ける。合唱の厚みをリード一人の声質とみなさない。",
       "phrasing": "一人の呼びかけ、応答するコーラス、全員の強調が順に現れる。どの語が次の声を呼び込むかを聴く。",
       "production": "多重録音の合唱、左右や奥行きの配置、バンドとの重なりが重要な作品群。ここでは声の人数感と実際の録音人数を区別し、層が増える順番を追う。",
       "listen": "タイトル語をリード、背景声、全体の順に聴き、どこで舞台の広さが変わるか。",
       "sourceUrl": "https://rockhall.com/inductees/queen/",
+      "signature": "リードのMercuryは明瞭な言葉と張りのある声で、静かな歌から劇的な高揚へ動く。Mercury、May、Taylorによる多重コーラスは、個人の声量とは別の厚みと舞台感を作る。",
+      "related": [
+        {
+          "name": "Brian May",
+          "relation": "ギター／歌／作曲。Mercuryのリードに応答する楽器とコーラスを担う。"
+        },
+        {
+          "name": "Roger Taylor",
+          "relation": "ドラム／歌／作曲。高いコーラスもバンドの音像の一部。"
+        },
+        {
+          "name": "John Deacon",
+          "relation": "ベース／作曲。「You're My Best Friend」「Another One Bites the Dust」などを作った。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "queenonline.com",
+          "url": "https://www.queenonline.com/john_deacon"
+        },
+        {
+          "label": "queenonline.com",
+          "url": "https://www.queenonline.com/features/a-night-at-the-odeon-now-im-here-by-rosie-horide"
+        }
+      ],
       "engineering": "短い声部を複数回重ねて左右に配置し、人数感の変化を聴く。各声の子音が重なりすぎたら入りを調整する。",
       "recordingIds": [
         "rec-022"
@@ -1954,12 +2452,33 @@
     },
     {
       "name": "Led Zeppelin",
-      "bio": "Robert Plantの声と、ギター・ベース・ドラムの強い対話で知られるロック・バンド。『Whole Lotta Love』ではリフと主声が競うだけでなく、空間的な効果が曲の一部になる。",
+      "bio": "Robert Plant、Jimmy Page、John Paul Jones、John Bonhamの四人によるバンド。1969年のデビューから、ブルースを基盤にした重量感のあるロック、フォーク、広い空間を使う録音へ展開した。Pageはギタリストであると同時に制作を主導。Plantの歌はリフと一体になる場面と、楽器から離れて長く伸びる場面を使い分ける。即興の比重が高いライブとスタジオでは曲の姿も変わる。",
       "voice": "Plantの鋭い高音と、語頭の強い輪郭。歪んで聞こえる箇所を発声だけで説明せず、楽器と録音の飽和も分ける。",
       "phrasing": "リフに重ねる短い句と、リフから離れて伸びる叫びの差。伴奏の戻りで声がどこに着地するかを見る。",
       "production": "大きなドラム、ギターの密度、定位や残響が変わる中間部との対比を聴く。具体的な機材・テープ処理は資料なしで曲へ割り当てない。",
       "listen": "リフが消える区間の声の距離と、リフが戻った直後の距離を比べる。",
       "sourceUrl": "https://rockhall.com/inductees/led-zeppelin/",
+      "signature": "リードのPlantの鋭い高音、荒い輪郭、ブルース的な呼びかけが特徴。声がギターのリフをなぞるだけでなく、ドラムの重い拍からはみ出して緊張を作る。",
+      "related": [
+        {
+          "name": "Jimmy Page",
+          "relation": "ギター／プロデュース。Plantと主要な曲を共作し、録音の空間も組み立てた。"
+        },
+        {
+          "name": "John Paul Jones",
+          "relation": "ベース／鍵盤。低音と和声の両方から歌を支える。"
+        },
+        {
+          "name": "John Bonham",
+          "relation": "ドラム。強い拍と大きな間がPlantの歌の対話相手になる。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/led-zeppelin/"
+        }
+      ],
       "engineering": "大きなドラムとギターの前後で主声を聴き、残響の長さと定位を変えて中間部の空間差を再現してみる。",
       "recordingIds": [
         "rec-023"
@@ -1967,11 +2486,36 @@
     },
     {
       "name": "Ike & Tina Turner",
-      "bio": "Tina Turnerの強いリードを、バンドと大きな編曲の中に置いたデュオ／レビュー。『River Deep – Mountain High』では声の表現と増え続ける伴奏を同時に追う。",
+      "bio": "Ike TurnerのバンドとTina Turnerの歌を軸にしたユニット。1960年代に「A Fool in Love」などで知られ、「River Deep – Mountain High」「Proud Mary」などでソウルとロックを横断した。1976年にTinaはユニットを離れ、後に『Private Dancer』でソロとして再出発した。教材の名義は二人の活動期を指すが、歌の中心はTina。ソロ以降のキャリアとは時期を区別して捉える。",
       "voice": "Tinaの太くざらつく輪郭と、小さく始める語の差。強く聞こえることを単に高い音量と見なさず、アタックと伸ばし方を見る。",
       "phrasing": "曲の上昇に合わせて短い句を押し出す。伴奏が厚くなるときにも言葉の子音がどこに残るか。",
       "production": "大編成の密度、打楽器、背景声、残響に対してリードがどう見えるか。『Wall of Sound』という制作上の枠組みを、Tinaの発声技術の別名にしない。",
       "listen": "静かな冒頭と大きな終盤で、声そのものと伴奏の変化を別々に書く。",
+      "signature": "Tinaの太くざらつく発音、素早い言葉、爆発的なアタックが特徴。静かな導入と強い後半の差を使い、舞台の身体的なエネルギーを歌に持ち込む。",
+      "related": [
+        {
+          "name": "Ike Turner",
+          "relation": "ユニットのバンドリーダー／鍵盤・ギター奏者。Tinaのソロ以降の活動とは別。"
+        },
+        {
+          "name": "Mark Knopfler",
+          "relation": "Tinaのソロ曲「Private Dancer」の作者。"
+        },
+        {
+          "name": "Jeff Beck",
+          "relation": "ソロ曲「Private Dancer」でギター・ソロを担当した。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/ike-and-tina-turner/?flavour=full"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/tina-turner/"
+        }
+      ],
       "engineering": "密度の高い伴奏に対して主声の中域を残し、背景声と残響の量を動かす。歪みだけを増やしても迫力が同じか確かめる。",
       "recordingIds": [
         "rec-024"
@@ -1979,12 +2523,37 @@
     },
     {
       "name": "Joni Mitchell",
-      "bio": "作詞・作曲・演奏を担い、個人的な情景を独自の旋律と和声に結びつけた歌手。『A Case of You』では物語の細部と旋律の高さがどこで結びつくかを聴く。",
+      "bio": "カナダ出身のシンガー・ソングライター。フォークの場から登場し、『Blue』で個人的な感情を繊細な歌にした。『Court and Spark』『Hejira』以降はジャズの演奏家と協働し、複雑な和声と自由な言葉の流れを深めた。『Mingus』ではCharles Mingusの音楽とも向き合った。ギターの独自のチューニング、ピアノ、歌詞、声を一緒に考える作家で、画家としての視覚的な表現も作品につながる。",
       "voice": "細く明るい輪郭と、語りへ戻る低い声の差。高音が意味の強調なのか、旋律の流れなのかを言葉ごとに考える。",
       "phrasing": "言葉の意味のまとまりが、小節線をまたいで進む。韻や子音の反復より、文の途中の間に耳を向ける。",
       "production": "比較的少ない伴奏の中で声が前へ出る印象を聴く。近さや透明感は編曲の隙間、音量、録音帯域にもよるため、マイクの型番を推測しない。",
       "listen": "一つの比喩が終わるまで、旋律と伴奏のどちらが先に一区切りを作るか。",
       "sourceUrl": "https://rockhall.com/inductees/joni-mitchell/",
+      "signature": "明るく細い高音と話すような低い声を使い、長い文章を小節線に縛られず運ぶ。年齢とともに声の色も変わり、同じ曲の再解釈にも異なる語りの重さが生まれる。",
+      "related": [
+        {
+          "name": "Jaco Pastorius",
+          "relation": "『Hejira』などに参加したベーシスト。歌の間を旋律的な低音で埋める。"
+        },
+        {
+          "name": "Wayne Shorter",
+          "relation": "『Don Juan's Reckless Daughter』『Mingus』などで共演したサックス奏者。"
+        },
+        {
+          "name": "Herbie Hancock",
+          "relation": "『Mingus』で鍵盤を担当したジャズ音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/joni-mitchell/"
+        },
+        {
+          "label": "jonimitchell.com",
+          "url": "https://jonimitchell.com/library/view.cfm?id=2630"
+        }
+      ],
       "engineering": "声と少数の楽器だけで距離を作る。伴奏を増やす前後、短い部屋鳴りを足す前後で言葉の近さを比較する。",
       "recordingIds": [
         "rec-025"
@@ -1992,12 +2561,29 @@
     },
     {
       "name": "Nina Simone",
-      "bio": "クラシックの訓練を受けたピアニストであり、ジャズ、ブルース、フォークなどを横断した歌手。『Feeling Good』では低い語りから解放感のある広い音へ変わる構成を聴く。",
+      "bio": "クラシック・ピアノを学び、歌とピアノでジャズ、ブルース、ゴスペル、フォークを横断した。「I Loves You Porgy」で広く知られた後、公民権運動と結び付く「Mississippi Goddam」などを発表した。ジャンル名より、歌詞に含まれる自由や怒り、愛をどう伝えるかが活動の軸にある。ライブでは曲の長さや語りを変え、聴き手に向けたその日の表現を作った。",
       "voice": "低く密度のある発音、言葉を語る時間、開く母音の差が焦点。『低音が魅力』だけでなく、一節の中で質感がどう動くかを見る。",
       "phrasing": "長い休止と、次の語の入りの組み合わせ。伴奏が待つ時間が語り手の態度を変える。",
       "production": "静かな入りと、管・リズム隊が広がる場面の差を聴く。声の迫力を常時の音量として捉えず、アレンジが作るコントラストを含めて考える。",
       "listen": "冒頭の一語とバンドが入った後の一語で、声の前後の空白を比べる。",
       "sourceUrl": "https://rockhall.com/inductees/nina-simone/",
+      "signature": "低く密な声と明瞭な語り、長い沈黙の使い方が特徴。ピアノのクラシック的な構成とブルースの反復を結び、歌うことと話すことの境界を動かす。",
+      "related": [
+        {
+          "name": "Al Schackman",
+          "relation": "長年のギタリスト／音楽監督。ライブや録音を共にした。"
+        },
+        {
+          "name": "Langston Hughes",
+          "relation": "詩人。「Backlash Blues」の言葉を提供した。音楽家との共演とは異なる、文学上の協働。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ninasimone.com",
+          "url": "https://www.ninasimone.com/biography/"
+        }
+      ],
       "engineering": "静かな語りを聴き取れる位置に置き、伴奏の増加に応じて音量を調整する。全体を同じ強さに圧縮しない実験をする。",
       "recordingIds": [
         "rec-026"
@@ -2005,12 +2591,33 @@
     },
     {
       "name": "David Bowie",
-      "bio": "歌唱、演劇、キャラクター、編曲を往復しながら作品ごとに声の役割を変えた歌手。『Life on Mars?』では奇妙な物語と大きな音楽的展開が結びつく。",
+      "bio": "1960年代末の「Space Oddity」から、『Ziggy Stardust』のグラム・ロック、『Young Americans』のソウル、『Low』『“Heroes”』などの実験的な録音へと作風を変え続けた。登場人物や声の演じ方、服装、伴奏の音を一つの作品世界として組み立てた。長年の制作相手Tony ViscontiやBrian Enoとの協働も重要。最後期の『Blackstar』まで、歌の役割と音楽の形式を更新した。",
       "voice": "会話に近い低めの語りから、輪郭を広げた高い声へ動く。『変身する声』を演技だけに還元せず、旋律と編曲の変化も見る。",
       "phrasing": "語句を急に押し出す箇所と、長い母音に預ける箇所の差。歌詞の場面転換と音の上昇がどこで重なるか。",
       "production": "ピアノ、弦、ドラムが段階的に大きくなる編曲の中で、主声の位置がどう保たれるか。残響とオーケストレーションによるスケール感を分ける。",
       "listen": "一節ごとに舞台の広さが変わったように感じる場所を、楽器の追加と一緒に探す。",
       "sourceUrl": "https://rockhall.com/inductees/david-bowie/",
+      "signature": "低い話し声、鼻にかかる明るい音、張った長い音を使い分ける。単に声色を変えるのではなく、歌の人物の距離や態度を変えて物語を作る。",
+      "related": [
+        {
+          "name": "Tony Visconti",
+          "relation": "長年の共同プロデューサー。1970年代の作品から『Blackstar』まで関わった。"
+        },
+        {
+          "name": "Brian Eno",
+          "relation": "『Low』『“Heroes”』『Lodger』や『Outside』で協働した音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/wp-content/uploads/2024/03/David_Bowie_1996.pdf"
+        },
+        {
+          "label": "catalog.rockhall.com",
+          "url": "https://catalog.rockhall.com/rrhof-ais/Details/archive/110000920"
+        }
+      ],
       "engineering": "語る声を中央に保ちながら、ピアノから弦へ広がる伴奏の奥行きを動かす。残響量だけで壮大さを作れるか比べる。",
       "recordingIds": [
         "rec-027"
@@ -2018,11 +2625,36 @@
     },
     {
       "name": "D'Angelo",
-      "bio": "90年代以降のR&Bで、鍵盤、グルーヴ、重なる声を密に結びつけてきた歌手・音楽家。『Brown Sugar』ではビートの反復に声が細かな揺れを与える。",
+      "bio": "ヴァージニア州の教会音楽を背景に、1995年の『Brown Sugar』でソロ・デビュー。2000年の『Voodoo』では生演奏と重なる声の細かな時間差を使い、ソウルとファンクの新しい感触を作った。2014年にはThe Vanguardと『Black Messiah』を発表した。歌、鍵盤、作曲、制作を横断し、古いソウルの語法とヒップホップ以降のビート感を結び付けた音楽家である。",
       "voice": "低めの柔らかな主声と、高く薄く重なる声の差。コーラスを一つの巨大な声として聴かず、層を解く。",
       "phrasing": "拍の前後に言葉を小さくずらし、同じ語を反復しても長さを変える。ドラムだけでなくベースとの時間差を見る。",
       "production": "多重ボーカル、鍵盤、低音が密度を作るR&Bの音像。前にある声と奥で響く声を聴き分け、グルーヴを単一のコンプ設定へ還元しない。",
       "listen": "同じ二小節を三回聴き、主声、背景声、ベースを順番に追う。",
+      "signature": "やわらかな低い声と高いファルセットを重ね、言葉を拍の少し後ろへ置く。ひとりの主声の輪郭より、複数の声とリズム隊がずれることで生まれる揺れが特徴。",
+      "related": [
+        {
+          "name": "Questlove",
+          "relation": "The Rootsのドラマー。『Voodoo』期の演奏と制作を共にした。"
+        },
+        {
+          "name": "Raphael Saadiq",
+          "relation": "『Voodoo』などで協働した作家／プロデューサー。"
+        },
+        {
+          "name": "Lauryn Hill",
+          "relation": "「Nothing Even Matters」でデュエットした歌手。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/artists/dangelo/1902/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/vote-now-which-2000-album-will-you-have-repeat-year/"
+        }
+      ],
       "engineering": "複数の声を重ねたときの音量とタイミング差を調整し、低音・ドラムの揺れと一緒に聴く。全トラックを機械的に揃えない。",
       "recordingIds": [
         "rec-028"
@@ -2030,11 +2662,32 @@
     },
     {
       "name": "Erykah Badu",
-      "bio": "ジャズやヒップホップと関わるR&Bを独自の言葉と間で歌う音楽家。『On & On』ではゆっくりした循環の中で、旋律と語りの境目が動く。",
+      "bio": "テキサス出身の歌手・ソングライター。1997年の『Baduizm』とライブ作で、ソウル、ジャズ、ヒップホップをつなぐネオソウルの中心的な存在になった。2000年の『Mama's Gun』ではSoulquariansの仲間と制作し、個人的な経験と社会への視線を深めた。その後もファンクやサンプリングを大胆に使う作品へ展開。歌詞、ビート、声の距離感を一緒に考える表現が活動の軸にある。",
       "voice": "鼻にかかるような輪郭、軽い語尾、低い話し声に近い音を区別して聴く。声色の印象に名前を付けるより、どの単語で変わるかを探す。",
       "phrasing": "ビートの中心へ乗る音と、後ろに残る音。短い音節の繰り返しが文全体の流れをどこで変えるか。",
       "production": "反復するドラムと低音の上で、主声や背景のハーモニーを異なる距離に置く音像を聴く。揺れる時間感覚を『録音の遅延』と断定しない。",
       "listen": "同じリズムが続く八小節で、声だけが変えた位置を二つ記録する。",
+      "signature": "少し鼻にかかる輪郭と話し声のような自然さ、ビートからわずかに遅れる言葉が特徴。声を強く押し出さず、小さな節回しや語尾の長さでリズムに独自の重心を作る。",
+      "related": [
+        {
+          "name": "Questlove",
+          "relation": "『Mama's Gun』に関わったドラマー／Soulquariansの仲間。"
+        },
+        {
+          "name": "James Poyser",
+          "relation": "鍵盤奏者／プロデューサー。Soulquariansの共同制作を支えた。"
+        },
+        {
+          "name": "D'Angelo",
+          "relation": "同じ制作のコミュニティーで協働した歌手／音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/erykah-badu-mamas-gun-20-year-anniversary/"
+        }
+      ],
       "engineering": "乾いた主声と奥のハーモニーを作り、残響と音量差を別々に変える。歌とビートの微妙なずれを残す設定を探す。",
       "recordingIds": [
         "rec-029"
@@ -2042,12 +2695,37 @@
     },
     {
       "name": "Lauryn Hill",
-      "bio": "Fugeesでの活動とソロ作品で、歌とラップ、作詞、制作を結びつけた音楽家。『Ex-Factor』では一文を抑えて語る箇所と強く歌い上げる箇所がつながる。",
+      "bio": "Fugeesの歌手・ラッパーとして活動し、1996年の『The Score』で広く知られた。1998年には『The Miseducation of Lauryn Hill』を発表。ラップ、ソウルの歌、レゲエの感触をつなぎ、愛、家族、自分の生き方を一つの作品へまとめた。歌とラップを別々の能力として見せるのではなく、同じ言葉のリズムと意味を伝える手段として行き来する点が重要である。",
       "voice": "少しざらつく低めの語り、張った高音、重なる背景声を分ける。傷ついた感情を声の粗さだけで説明しない。",
       "phrasing": "一つの問いを言い切る前に間を作り、次の行で圧を増す。言葉の意味の切れ目とビート上の切れ目を比べる。",
       "production": "生楽器を感じさせる伴奏と重なる声の中で、リードの言葉が前へ出る位置を追う。コーラスの大きさを主声一人の音量の増加として聴かない。",
       "listen": "サビに向かう前後で、同じ語を主声と後ろの声がどう支えるか。",
       "sourceUrl": "https://www.grammy.com/artists/lauryn-hill/9621/",
+      "signature": "少しざらついた中低音、強く張る音、会話的な言葉運びが特徴。短い音節を刻むラップの感覚が旋律にも入り、切迫した歌と落ち着いた語りの両方を作る。",
+      "related": [
+        {
+          "name": "Fugees",
+          "relation": "ソロ以前に所属したグループ。『The Score』で歌とラップを担った。"
+        },
+        {
+          "name": "D'Angelo",
+          "relation": "『The Miseducation』の「Nothing Even Matters」で共演した。"
+        },
+        {
+          "name": "Carlos Santana",
+          "relation": "同作の「To Zion」でギターを担当した。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/artists/lauryn-hill/9621/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/lauryn-hill-the-miseducation-of-lauryn-hill-25th-anniversary-reflection/"
+        }
+      ],
       "engineering": "主声の語りと張った声で音量差を調整し、コーラスの幅を変える。ビートと生楽器が増えても言葉が残る帯域を確かめる。",
       "recordingIds": [
         "rec-030"
@@ -2055,12 +2733,37 @@
     },
     {
       "name": "Earth, Wind & Fire",
-      "bio": "Maurice Whiteを中心に、複数の歌手、ホーン、リズム隊を統合したバンド。『Fantasy』は一人の歌だけではなく、リードと集団の重なりから聴く。",
+      "bio": "Maurice Whiteを中心に結成されたバンド。ジャズ、ファンク、ソウル、アフリカ音楽の感触を組み合わせ、1975年の『That's the Way of the World』以降、広い人気を得た。『Spirit』『All 'n All』や「September」では、複雑な編曲と誰もが口ずさめる歌を両立。Maurice WhiteとPhilip Baileyの対照的なリード、密なコーラス、ホーン、ベースが一つの祝祭的な音を作る。",
       "voice": "軽く上がるリードと厚いハーモニーの対比。『バンドの声』を単独の歌手の声域として紹介せず、声部ごとに追う。",
       "phrasing": "リードの語尾へコーラスが入る場所、ホーンが空白を埋める場所。反復するリフの上で声の役割が変わる。",
       "production": "多層のコーラス、ホーン、弦、パーカッションが広い音像を作る。リードの明瞭さを音量だけでなく帯域と配置の隙間から考える。",
       "listen": "一番高い声を追い、その後で中間の声とベースだけを聴く。",
       "sourceUrl": "https://rockhall.com/inductees/earth-wind-and-fire/",
+      "signature": "Mauriceの温かな中音とBaileyの高く軽いファルセットが大きな対比。リードと合唱が入れ替わり、声もホーンや打楽器と並ぶ編曲の一部として機能する。",
+      "related": [
+        {
+          "name": "Maurice White",
+          "relation": "創設者／歌手／ドラマー／プロデューサー。バンドの音楽構想を主導した。"
+        },
+        {
+          "name": "Philip Bailey",
+          "relation": "高いファルセットを担うリード歌手。Mauriceとの声の対比が特徴。"
+        },
+        {
+          "name": "Verdine White",
+          "relation": "ベーシスト。弾む低音で声とホーンのグルーヴを支える。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/earth-wind-and-fire/"
+        },
+        {
+          "label": "Rock & Roll Hall of Fame",
+          "url": "https://www.rockhall.com/wp-content/uploads/2024/03/Earth__Wind_and_Fire_2000.pdf"
+        }
+      ],
       "engineering": "複数の声を左右に配置し、ホーンと重なる中域を整理する。広がりを増してもリードの語頭が消えないか聴く。",
       "recordingIds": [
         "rec-031"
@@ -2068,11 +2771,36 @@
     },
     {
       "name": "Boyz II Men",
-      "bio": "複数の主声とハーモニーを使い、90年代R&Bのバラードを代表するボーカル・グループ。『End of the Road』では誰が旋律を引き継ぎ、誰が和音の底を作るかが聴きどころ。",
+      "bio": "フィラデルフィアで生まれたヴォーカル・グループ。Michael Bivinsに見いだされ、1991年の『Cooleyhighharmony』でデビューした。1990年代の「End of the Road」「I'll Make Love to You」「One Sweet Day」などで、四人のハーモニーとソロの受け渡しをポップの中心へ届けた。教材の録音は低音を担うMichael McCaryを含む四人時代。後の三人での活動とは声の編成を区別して聴く。",
       "voice": "低い支え、滑らかな中音、明るい高音を別々の声部として聴く。四人の和音を一人の広い声域として扱わない。",
       "phrasing": "ソロの問いを合唱が受け、同じ言葉の母音をそろえる。声の入れ替わりが曲の感情の向きを変える。",
       "production": "声部を重ね、定位と残響で広がりを作りながら、先頭の言葉を保つバラードの設計。多重録音の層と歌手の人数を混同しない。",
       "listen": "リードが交代した一箇所で、低い支えが続いているかを確認する。",
+      "signature": "低い支え、滑らかな中音、明るい高音が重なる和声と、リードの装飾が特徴。個々の歌手の色を残しながら、合唱では母音と語尾をそろえて一つの音像を作る。",
+      "related": [
+        {
+          "name": "Nathan Morris／Wanya Morris／Shawn Stockman",
+          "relation": "教材の録音でソロとハーモニーを分担した歌手。"
+        },
+        {
+          "name": "Michael McCary",
+          "relation": "四人時代のバス・ヴォイス。低い声の支えを担当した。"
+        },
+        {
+          "name": "Michael Bivins",
+          "relation": "New Editionのメンバー。グループの発掘と初期の活動を支援した。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "boyziimen.com",
+          "url": "https://boyziimen.com/about/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/artists/michael-mccary/9404/"
+        }
+      ],
       "engineering": "各パートを単独で聴いてから重ね、低声と高声の音量・定位・残響を調整する。和音の明瞭さと一体感の両方を確かめる。",
       "recordingIds": [
         "rec-032"
@@ -2080,12 +2808,33 @@
     },
     {
       "name": "Imogen Heap",
-      "bio": "歌、作曲、電子音響の制作を横断する音楽家。『Hide and Seek』は伴奏のほとんどを声と電子処理が担い、加工と旋律を同時に聴く入口になる。",
+      "bio": "英国の歌手、作曲家、プロデューサー。Guy SigsworthとのFrou Frouを経て、2005年のソロ作『Speak for Yourself』で「Hide and Seek」などを発表した。声、電子音、日常の音を組み合わせ、自身で制作を組み立てる活動を続ける。演奏を身ぶりで制御する技術や、音楽家の情報と報酬を扱うMyceliaにも取り組み、歌の作品と音楽を作る仕組みの両方に関わっている。",
       "voice": "生の声の輪郭と、和音へ拡張されたように聞こえる声の境目を追う。電子的な成分をすべて本人の生声の声域とみなさない。",
       "phrasing": "歌詞の一区切りが新しい和音を呼ぶように聞こえる場所。言葉の長さと和声の変化を並べる。",
       "production": "声を入力として和音や質感を変化させる電子処理が作品の中心。『ボコーダー』など一つの機種名で済ませず、原声・処理声・重ね録りの聴き分けを試す。",
       "listen": "一つの母音を追い、音程以外の音が増える瞬間と消える瞬間を探す。",
       "sourceUrl": "https://imogenheap.com/",
+      "signature": "やわらかな発音と電子処理による和声の拡張が特徴。声を単なる主旋律にせず、和音、空間、リズムを同時に担う素材として配置する。",
+      "related": [
+        {
+          "name": "Guy Sigsworth",
+          "relation": "電子ポップ・デュオFrou Frouの相手。演奏・作曲・制作を共にした。"
+        },
+        {
+          "name": "Simon Heyworth",
+          "relation": "『Speak for Yourself』のマスタリングと後のリマスターに関わった。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/frou-frou-release-first-song-15-years-guitar-song-live/"
+        },
+        {
+          "label": "imogenheap.com",
+          "url": "https://imogenheap.com/"
+        }
+      ],
       "engineering": "原声、ハーモニーを生成した声、加工した声を分けて試す。ピッチ補正、フィルター、重ね録りを一つずつ切り替える。",
       "recordingIds": [
         "rec-033"
@@ -2093,12 +2842,37 @@
     },
     {
       "name": "宇多田ヒカル",
-      "bio": "作詞・作曲と歌を一体で展開してきた音楽家。『First Love』では日本語のまとまりと英語の短い語が、一つの旋律の中でどう異なる長さになるかを聴く。",
+      "bio": "1998年の「Automatic／time will tell」でデビューし、1999年の『First Love』で広く知られた。日本語の歌詞をR&Bのリズムへ自然に置く作風から、電子音、内省的な歌、より自由な曲構成へと展開した。『Fantôme』『初恋』などでは生活や喪失の感情を歌にし、歌手だけでなく作詞・作曲・制作を担う。初期の作品と後年の作品で、声の色と表現の距離も変わっている。",
       "voice": "低めの言葉の輪郭と、上へ伸びる母音の繊細な変化。若い頃の録音を現在の歌唱スタイル全体の固定像にしない。",
       "phrasing": "日本語の助詞や語尾をどこまで一息で運ぶか。英語の一語へ移る前の間を含めて聴く。",
       "production": "ピアノやストリングスが厚くなるバラードの中でも、主声の子音がどう残るかを追う。残響や二重声の印象は版で変わり得るため、具体的な機材は割り当てない。",
       "listen": "日本語から英語に移る前後の母音の長さを記録する。",
       "sourceUrl": "https://www.utadahikaru.jp/",
+      "signature": "低めの落ち着いた声と上へ抜ける繊細な母音、拍の中で言葉を伸び縮みさせる歌が特徴。日本語の意味のまとまりを保ちながら、英語を含む異なる音節を旋律に結び付ける。",
+      "related": [
+        {
+          "name": "小袋成彬",
+          "relation": "宇多田が『分離派の夏』をプロデュースした歌手／音楽家。『初恋』期にも交流がある。"
+        },
+        {
+          "name": "Skrillex",
+          "relation": "「Face My Fears」を共作した電子音楽家。歌と電子音を組み合わせる制作の相手。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "utadahikaru.jp",
+          "url": "https://www.utadahikaru.jp/news/r_jonjjxoko/"
+        },
+        {
+          "label": "utadahikaru.jp",
+          "url": "https://www.utadahikaru.jp/profile/"
+        },
+        {
+          "label": "utadahikaru.jp",
+          "url": "https://www.utadahikaru.jp/news/pthy25dp2j/"
+        }
+      ],
       "engineering": "小さな息と語尾を残したまま、ピアノ・弦の中域を整える。残響を増やす前後で日本語の子音の見え方を比べる。",
       "recordingIds": [
         "rec-034"
@@ -2106,12 +2880,37 @@
     },
     {
       "name": "椎名林檎",
-      "bio": "作詞・作曲・歌に加え、作品ごとの編曲や語り手の像を強く変える音楽家。『丸ノ内サディスティック』では言葉のリズムとバンドの跳ね方を合わせて聴く。",
+      "bio": "1998年にソロ・デビューし、『無罪モラトリアム』『勝訴ストリップ』などで、ロックの強さと日本語の独自の語感を結び付けた。2004年には東京事変としての活動を開始。ソロでは弦やホーンを含む編曲、バンドでは各メンバーとの作曲・演奏の分担を進めた。歌手、作詞・作曲家として、曲ごとに人物の口調と音楽の様式を設計し、他の歌手への楽曲提供も行う。",
       "voice": "鼻にかかるような輪郭、乾いた語尾、急に強まる発音の対比。単一の『癖』として片付けず、文のどこで選ばれるか。",
       "phrasing": "日本語と英語の音節をビートへ詰める場所、あえて引く場所。子音を打楽器として聴くと伴奏との関係がわかる。",
       "production": "歪んだ楽器、強いリズム隊、前景の声の距離を比べる。荒く感じる質感に歌唱、演奏、録音のどれが寄与するかは分けて考える。",
       "listen": "一節の語頭だけを聴き、スネアやギターと重なる位置を書き込む。",
       "sourceUrl": "https://www.kronekodow.com/",
+      "signature": "鼻にかかる鋭い輪郭、乾いた語尾、急な強弱と声色の転換が特徴。言葉を打楽器のように刻む歌と、芝居の台詞のように語る歌を曲の世界に合わせて使い分ける。",
+      "related": [
+        {
+          "name": "亀田誠治",
+          "relation": "東京事変のベーシスト／作曲家。ソロの初期から編曲・制作にも関わった。"
+        },
+        {
+          "name": "浮雲／伊澤一葉",
+          "relation": "東京事変のギター／鍵盤。作曲と演奏、コーラスも担う。"
+        },
+        {
+          "name": "刄田綴色",
+          "relation": "東京事変のドラマー。歌の細かなリズムをバンドの拍と結ぶ。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "kronekodow.com",
+          "url": "https://www.kronekodow.com/art_detail.php?page_id=861"
+        },
+        {
+          "label": "universal-music.co.jp",
+          "url": "https://www.universal-music.co.jp/sheena-ringo/biography/"
+        }
+      ],
       "engineering": "声の歪み、楽器の歪み、全体の飽和を別々に試す。語尾の演技が処理で埋もれない位置を探す。",
       "recordingIds": [
         "rec-035"
@@ -2119,12 +2918,33 @@
     },
     {
       "name": "玉置浩二",
-      "bio": "安全地帯のボーカルとして、またソロ歌手・作曲家として活動。『メロディー』では派手な装飾より、ひとつの言葉をどの長さで残すかが曲の重心になる。",
+      "bio": "北海道旭川で生まれ、安全地帯の歌手・作曲家として1982年にデビューした。「ワインレッドの心」「恋の予感」「悲しみにさよなら」などを経て、ソロでも「田園」「メロディー」を発表。バンドでの緻密なポップから、少ない伴奏で言葉を届ける歌、オーケストラとの共演まで活動を広げた。2015年以降の管弦楽公演では、声の強弱と大きな編成の関係を改めて示している。",
       "voice": "太い中低音、語尾の細い揺れ、上へ開く音の差。『声量がある』という印象を、常に大きく歌っていることと混同しない。",
       "phrasing": "言葉の後に少し待ち、次の語へ急がない。伴奏がその余白をどう埋めるかを聴く。",
       "production": "少ない伴奏から広がる音像の中で、声の近さと残響の広がりを分ける。ライブ版とスタジオ版では間や距離の印象が大きく変わり得る。",
       "listen": "一つの『メロディー』を歌い終えた後、ピアノや弦の余韻を追う。",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/KojiTamaki/",
+      "signature": "温かく密な中低音と、細い語尾から大きく開く音へ向かう幅が特徴。常に強く歌うのではなく、小さな息や待つ時間を使って次の一語の重さを作る。",
+      "related": [
+        {
+          "name": "矢萩渉／武沢侑昂",
+          "relation": "安全地帯のギタリスト。バンド時代の歌の背景を作る演奏の相手。"
+        },
+        {
+          "name": "六土開正／田中裕二",
+          "relation": "安全地帯のベース・鍵盤／ドラム。教材の歌手を理解するためのバンドの基盤。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "sonymusic.co.jp",
+          "url": "https://www.sonymusic.co.jp/artist/KojiTamaki/profile/"
+        },
+        {
+          "label": "sonymusic.co.jp",
+          "url": "https://www.sonymusic.co.jp/artist/Anzenchitai/profile/"
+        }
+      ],
       "engineering": "歌の強弱を音量自動化で支え、残響を短くした場合と長くした場合を比べる。静かな部分の近さを残す。",
       "recordingIds": [
         "rec-036"
@@ -2132,12 +2952,37 @@
     },
     {
       "name": "Billie Eilish",
-      "bio": "FINNEASとの制作で、静かな声と大胆な音響的対比をポップの中心に置いた歌手。『when the party's over』では音数の少なさと声の層が強い効果を生む。",
+      "bio": "兄FINNEASとの自宅での制作から活動を広げ、2019年に『When We All Fall Asleep, Where Do We Go?』を発表した。『Happier Than Ever』『Hit Me Hard and Soft』では、親密な小さな声に加え、強く張る歌や長い曲構成も展開した。歌と制作を分けず、声の近さ、低音、沈黙、背景の音までを作品の表現として考える。ささやく歌だけがキャリア全体を表すわけではない。",
       "voice": "小さな発音と、上へ伸びたときの薄い輪郭に注目。ささやくように聞こえることと、実際の呼気量や負担を同一視しない。",
       "phrasing": "音を押し出すより、語尾を消して次の空白を残す。反復する歌詞の中で小さなタイミングの変化を追う。",
       "production": "近く聞こえる主声、重なるハーモニー、静けさと低域のコントラストを聴く。制作で多重録音や加工が使われても、聞こえる親密さをマイク一本の効果と決めない。",
       "listen": "同じ短い語の一回目と次の反復で、背景に何声増えたように聞こえるか。",
       "sourceUrl": "https://www.grammy.com/news/meet-first-time-grammy-nominee-finneas-billie-eilish-doing-production-no-ones-ever-done/",
+      "signature": "近く聞こえる小さな発音、薄い高音、声を何層にも重ねる繊細さが特徴。音量を抑えた歌でも言葉が鮮明で、静けさを使った緊張と大きな展開の対比を作る。",
+      "related": [
+        {
+          "name": "FINNEAS",
+          "relation": "兄で主要な共同作者／プロデューサー。歌、伴奏、背景音を一緒に設計する制作相手。"
+        },
+        {
+          "name": "Khalid",
+          "relation": "「lovely」で共演した歌手。声の対比を聴けるデュエットの相手。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/meet-first-time-grammy-nominee-finneas-billie-eilish-doing-production-no-ones-ever-done/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/artists/billie-eilish/251741/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/billie-eilish-finneas-songs-happier-than-ever-documentary-perfume-questions-facts/"
+        }
+      ],
       "engineering": "小さな主声の息や子音を残し、低域の大きさと背景の重ね声を別に調整する。近さを得るための過度な圧縮を避ける。",
       "recordingIds": [
         "rec-037"
@@ -2145,12 +2990,41 @@
     },
     {
       "name": "Bon Iver",
-      "bio": "Justin Vernonを中心とするプロジェクト。『Woods』は『Blood Bank』EPに収録され、声の重なりと電子的な音色変化そのものが編曲を担う。",
+      "bio": "Justin Vernonを中心とする音楽プロジェクト。『For Emma, Forever Ago』の少ない楽器と声の世界から、2009年の『Blood Bank』、その後の作品ではバンド、管弦楽器、電子処理を使う表現へ広がった。Vernon一人の名義と捉えるより、演奏家や制作の仲間が入る場として理解すると作品の変化が見える。別プロジェクトBig Red Machineでも、共同制作を軸に活動している。",
       "voice": "一人の声から和音へ広がる印象、揺れる音程の輪郭を聴く。処理された音を生身の声帯の音程移動だと断定しない。",
       "phrasing": "短い言葉を繰り返し、そのたびに音の厚さと和音の行き先を変える。言葉の意味より先に音色が届く瞬間もある。",
       "production": "多重声とピッチ処理の質感を聴く。『Auto-Tuneだけ』という説明で完結させず、歌のテイク、声の層、響きの配置を分ける。",
       "listen": "最初の一声と後半の同じ語を比べ、増えた声部と変わった音色を別々に記録する。",
       "sourceUrl": "https://boniver.org/audio/blood-bank/",
+      "signature": "Vernonの高く薄い声と、加工された和声、複数の声が重なる質感が特徴。声の輪郭をあえて曖昧にし、言葉の意味と同時に音の塊が感情を運ぶ。",
+      "related": [
+        {
+          "name": "Justin Vernon",
+          "relation": "中心となる歌手／作家／多楽器奏者。教材の「Woods」でも声が音楽の核になる。"
+        },
+        {
+          "name": "Aaron Dessner",
+          "relation": "VernonとBig Red Machineを組むThe Nationalの音楽家。"
+        },
+        {
+          "name": "Bruce Hornsby",
+          "relation": "Bon Iverの「U (Man Like)」でピアノと歌に参加した。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "boniver.org",
+          "url": "https://boniver.org/audio/blood-bank/"
+        },
+        {
+          "label": "jagjaguwar.com",
+          "url": "https://jagjaguwar.com/release/jag335/"
+        },
+        {
+          "label": "boniver.org",
+          "url": "https://boniver.org/video/u-man-like-official-video/"
+        }
+      ],
       "engineering": "素の歌、重ね声、ピッチ加工声を順に聴き、どの層が和声と質感を担うか確かめる。処理量だけで表現を説明しない。",
       "recordingIds": [
         "rec-038"
@@ -2158,11 +3032,40 @@
     },
     {
       "name": "Daft Punk",
-      "bio": "フランスの電子音楽デュオ。『Something About Us』では機械的な反復の中に控えめな歌が置かれ、電子処理された声を親密に聞かせる設計がある。",
+      "bio": "Thomas BangalterとGuy-Manuel de Homem-Christoによるフランスの電子音楽デュオ。1997年の『Homework』から、『Discovery』『Human After All』へとハウス、ディスコ、ロックの音を組み合わせた。2013年の『Random Access Memories』では多くの演奏家や歌手と制作。教材の「Something About Us」は『Discovery』収録で、加工された声が曲の親密さを作る。外部の歌手が歌う後年の作品とは声の役割も異なる。",
       "voice": "フィルターを通したような丸い輪郭と、言葉の少ない抑揚。聞こえる音色を歌い手の生声の固有特性とは扱わない。",
       "phrasing": "短い言葉を同じように繰り返し、和音とベースの変化によって意味を少しずつ変える。声が引く場所にも注目。",
       "production": "電子的な音色加工、反復する低音とドラム、狭く感じる声の帯域を聴く。特定のボコーダー・フィルターの機種は資料なしに指定しない。",
       "listen": "声の高さがほぼ変わらない場所で、和音が変わるだけで情感がどう動くか。",
+      "signature": "素の声質より、フィルターや電子的な変形を含めた声のデザインが特徴。反復の少ない抑揚と柔らかな音色が、機械的な印象と人間的な感情を同時に生む。",
+      "related": [
+        {
+          "name": "Thomas Bangalter／Guy-Manuel de Homem-Christo",
+          "relation": "フランスのデュオを構成する二人。楽曲の作曲・編曲・制作を共に担う。"
+        },
+        {
+          "name": "Pharrell Williams",
+          "relation": "『Random Access Memories』の「Get Lucky」などで歌を担当。教材曲の歌手とは別。"
+        },
+        {
+          "name": "Nile Rodgers",
+          "relation": "同作にギターで参加したChicの音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/album-of-the-year-grammy-winners-00s-and-10s/"
+        },
+        {
+          "label": "GRAMMY",
+          "url": "https://www.grammy.com/news/daft-punk-get-lucky-grammy-win-pharrell-williams-acceptance-speech-video-rewind/"
+        },
+        {
+          "label": "daftpunk.com",
+          "url": "https://daftpunk.com/discovery/"
+        }
+      ],
       "engineering": "声をフィルターやボコーダーで処理する前後で言葉の明瞭さを比べる。反復するリズムに対する声の位置も動かす。",
       "recordingIds": [
         "rec-039"
@@ -2170,12 +3073,33 @@
     },
     {
       "name": "山下達郎",
-      "bio": "シンガー・ソングライター、編曲家、プロデューサー。『RIDE ON TIME』ではバンドの推進力と、伸びる主声・重なるコーラスの関係を聴く。Spotifyでは本人の対象録音を特定できていない。",
+      "bio": "1975年にシュガー・ベイブの『SONGS』でデビューし、翌年『CIRCUS TOWN』でソロへ進んだ。1980年の「RIDE ON TIME」で広く知られ、『FOR YOU』などでソウル、ファンク、ポップを日本語の歌に結び付けた。『ON THE STREET CORNER』では一人多重録音のア・カペラも展開。歌手・作曲家・編曲家・プロデューサーとして、竹内まりや作品の制作も長く担っている。",
       "voice": "明るく抜ける主声と、重ねた声の厚みを分ける。高い音の強さを一人の声量だけでなく、コーラスと楽器の支えの中で捉える。",
       "phrasing": "ビートの前へ出る短い子音と、長く伸びる母音の交互の配置。サビへ進むときの息の長さを聴く。",
       "production": "層を重ねたコーラス、タイトなリズム隊、前面に残る主声という設計を聴く。本人の版を確認するまで、Spotify検索のカバーや別版を教材の証拠に使わない。",
       "listen": "原曲を入手できたら、サビの主声だけから背景の声へ耳を移し、和音の厚みを数える。",
       "sourceUrl": "https://www.tatsuro.co.jp/discography/",
+      "signature": "明るく芯のある声、リズムに食い込む子音、長く伸びる母音が特徴。ドゥー・ワップやソウルの歌の感覚を、一人で重ねるコーラスの精密さと結び付ける。",
+      "related": [
+        {
+          "name": "大貫妙子",
+          "relation": "シュガー・ベイブのメンバー／共同創設の仲間。"
+        },
+        {
+          "name": "大瀧詠一",
+          "relation": "『SONGS』を送り出したナイアガラの中心人物。NIAGARA TRIANGLEでも共演。"
+        },
+        {
+          "name": "竹内まりや",
+          "relation": "山下が編曲・プロデュースを担う歌手／ソングライター。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "tatsuro.co.jp",
+          "url": "https://www.tatsuro.co.jp/biography/"
+        }
+      ],
       "engineering": "別録りのコーラスを重ね、各声部の子音と音量を調整する。主声を中央に残したまま左右の幅を変えて聴く。",
       "recordingIds": [
         "rec-040"
@@ -2183,12 +3107,33 @@
     },
     {
       "name": "MISIA",
-      "bio": "R&Bと大きなバラードを横断する歌手。『Everything』では長いフレーズの中で、小さな言葉から広い高音へ到達する道筋を聴く。",
+      "bio": "1998年にデビューし、R&Bのリズムと豊かな声を日本のポップへ届けた。「Everything」のようなバラード、「アイノカタチ」などの歌に加え、ソウルやファンクの曲でも活動を広げた。ライブを大切にする歌手で、大編成の伴奏でも細かな言葉の変化を伝える。音楽活動と並行して子どもたちへの支援にも取り組み、東京オリンピック開会式では国歌を独唱した。",
       "voice": "密度のある中音域、輪郭の明るい高音、長い母音の変化。音域の広さという結果に加え、子音から母音へ移る瞬間を聴く。",
       "phrasing": "サビの同じ言葉を繰り返すたびに、伸ばす場所、装飾の着地点、語尾の残し方が変わる。",
       "production": "ストリングスや背景声が広がるバラードの中で主声がどこまで前に残るか。リミックスやライブ版と音の奥行きが異なるため、教材の候補版を確認する。",
       "listen": "タイトル語の一回目と最後を比べ、声、背景声、弦の変化を三つに分ける。",
       "sourceUrl": "https://www.misia.jp/musiclist/12051",
+      "signature": "密度のある中音域、明るい高音、長い音の中でも変化する母音が特徴。大きな声の印象だけでなく、入りを柔らかくしてから頂点へ向かう構成に表現の幅がある。",
+      "related": [
+        {
+          "name": "GReeeeN／HIDE",
+          "relation": "「アイノカタチ」の作詞・作曲をGReeeeNが担当し、HIDEがコーラスで参加。"
+        },
+        {
+          "name": "亀田誠治",
+          "relation": "「アイノカタチ」の編曲を担当した音楽家。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "misia.jp",
+          "url": "https://www.misia.jp/bio"
+        },
+        {
+          "label": "misia.jp",
+          "url": "https://www.misia.jp/musiclist/11973"
+        }
+      ],
       "engineering": "広い強弱を持つ主声に対して弦と背景声を段階的に加える。サビだけを持ち上げる場合と全体を圧縮する場合を比べる。",
       "recordingIds": [
         "rec-041"
@@ -2196,12 +3141,41 @@
     },
     {
       "name": "Ado",
-      "bio": "録音作品でさまざまな語り手を演じ分ける歌手。『うっせぇわ』では強い言葉だけでなく、低い語り、鋭い子音、高い叫びが場面ごとに役割を変える。",
+      "bio": "2017年に「歌ってみた」の投稿を始め、2020年の「うっせぇわ」でメジャー・デビューした。2022年には『狂言』と、映画『ONE PIECE FILM RED』でウタの歌を担う『ウタの歌』を発表。ボカロPや様々な作家の曲を、人物の口調と声色を強く変える歌で届けてきた。録音だけでなく大規模なライブや海外公演にも展開し、インターネット発の歌の表現を舞台へ広げた。",
       "voice": "低い語り、硬い輪郭、荒く聞こえる高音の切り替え。聞こえる歪みを身体の特定動作と即断せず、録音・処理も候補に入れる。",
       "phrasing": "言葉を詰める箇所、突然止める箇所、次の拍で爆発する箇所を追う。声色の切り替えが語り手の態度を変える。",
       "production": "現代的な高密度の編曲で、声が前へ出るための帯域、音量、重ね声、歪みの聴感を考える。特定プラグインや収録方法はクレジットなしに断定しない。",
       "listen": "同じフレーズの低い語りと強い声を比べ、子音・母音・背景音の変化を分離する。",
       "sourceUrl": "https://www.universal-music.co.jp/ado/",
+      "signature": "低い語り、鋭い高音、荒い叫び、軽い声を素早く切り替える。言葉の詰め方と突然の停止を使い、同じ歌詞でも人物の態度が変わったように聴かせる。",
+      "related": [
+        {
+          "name": "syudou",
+          "relation": "デビュー曲「うっせぇわ」の作詞・作曲者。"
+        },
+        {
+          "name": "Giga／TeddyLoid",
+          "relation": "「踊」の作曲・編曲を担当した制作コンビ。"
+        },
+        {
+          "name": "中田ヤスタカ",
+          "relation": "「新時代」を提供した音楽家／プロデューサー。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "universal-music.co.jp",
+          "url": "https://www.universal-music.co.jp/ado/usseewa/"
+        },
+        {
+          "label": "universal-music.co.jp",
+          "url": "https://www.universal-music.co.jp/ado/news/2025-05-15/"
+        },
+        {
+          "label": "universal-music.co.jp",
+          "url": "https://www.universal-music.co.jp/ado/biography/"
+        }
+      ],
       "engineering": "声色が急に切り替わる箇所をフレーズごとに整え、歪み・重ね声・空間処理を個別に試す。強い編曲でも言葉の輪郭を残す。",
       "recordingIds": [
         "rec-042"

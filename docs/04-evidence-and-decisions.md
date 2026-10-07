@@ -105,3 +105,10 @@ S1をもとに医療効果を保証しない。S2・S3の一般的な技術解�
 | Bon Iver「Woods」 | [Spotifyの曲ページ](https://open.spotify.com/track/2cx019HWgBsIrv3zLCdSHS)に `Blood Bank`、2009年の表示 | EP収録版の候補。ライブ版は採らない |
 | MISIA「Everything」 | [Spotifyの曲埋め込み](https://open.spotify.com/embed/track/5VCsbxir29FtbKxQDF1yU9)、[2000年のシングル](https://open.spotify.com/album/1ifijbnGiHkELLnZdiTvf5) | 同名曲・シングル収録を照合する候補 |
 | 山下達郎「RIDE ON TIME」 | [本人の公式ディスコグラフィ](https://www.tatsuro.co.jp/discography/)で作品を確認。Spotify検索ではカバー音源が多く本人の対象曲IDを確認できず | 誤った曲へ誘導せず、検索リンクを表示 |
+
+
+## 2026-10-07：人物紹介の拡充
+
+42組すべての `artist_profiles.jsonl` に、150字以上のキャリアと代表作、全体的な表現の特徴、関連ミュージシャンと具体的な関係、参照資料を追加した。公式アーティスト／レーベルの紹介と作品クレジット、Rock & Roll Hall of Fame、GRAMMYなどを参照。各人物の `sources` に個別のリンクを保持する。グループ名義はリード歌手・各メンバーの役割を明記し、デュエット、共同制作、原曲作者、影響関係を区別する。
+
+歌い手全体の特徴は `signature`、曲固有の観察ポイントは引き続き `recording_guides.jsonl` の `scene` と `points`。声質・歌唱・録音の記述は聴取の提案であり、未確認の機材や処理を実際の収録情報として断定しない。人物紹介は各曲のメモの後に常時表示し、歌手索引でも開閉を不要にした。索引は関連人物名とキャリアの文面でも検索できる。

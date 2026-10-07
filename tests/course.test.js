@@ -96,3 +96,41 @@ test('lesson cards show matching YouTube thumbnails and retain Spotify links', (
   assert.match(fallback, /data-youtube="XE45nsroFTE"/);
   assert.match(fallback, /Spotifyで曲を検索/);
 });
+
+test('all artists have career, signature, explicit musician relationships and sources', () => {
+  for (const artist of course.artists) {
+    assert.ok(artist.bio.length >= 150, artist.name);
+    assert.ok(artist.signature.length >= 50, artist.name);
+    assert.ok(artist.related.length >= 2, artist.name);
+    for (const person of artist.related) {
+      assert.ok(person.name && person.relation.length >= 20, artist.name);
+    }
+    assert.ok(artist.sources.length > 0, artist.name);
+    for (const source of artist.sources) {
+      assert.ok(source.label, artist.name);
+      assert.equal(new URL(source.url).protocol, 'https:');
+    }
+  }
+});
+
+test('every lesson renders its own three complete artist profiles without disclosures', () => {
+  const app = fs.readFileSync(path.join(root, 'src/app.js'), 'utf8');
+  const functions = app.slice(app.indexOf('function audioBox'), app.indexOf('function catalogRows'));
+  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const ctx = { COURSE: course, RECORDINGS: new Map(course.recordings.map(r => [r.id, r])),
+    ARTISTS: new Map(course.artists.map(a => [a.name, a])), esc, labelFor: () => 'Spotify',
+    state: { recordingObserved: {}, lessonCompleted: {}, notes: {} } };
+  vm.runInNewContext(functions, ctx);
+  for (const lesson of course.lessons) {
+    const rendered = ctx.lessonPage(lesson);
+    assert.equal((rendered.match(/class="artist-context"/g) || []).length, 3, lesson.id);
+    assert.ok(!rendered.includes('<details'), lesson.id);
+    for (const id of lesson.recordingIds) {
+      const recording = ctx.RECORDINGS.get(id), artist = ctx.ARTISTS.get(recording.artist);
+      assert.ok(rendered.includes(esc(artist.bio)), artist.name);
+      assert.ok(rendered.includes(esc(artist.signature)), artist.name);
+      for (const person of artist.related) assert.ok(rendered.includes(esc(person.relation)), artist.name);
+      for (const point of recording.points) assert.ok(rendered.includes(esc(point)), recording.id);
+    }
+  }
+});

@@ -19,6 +19,24 @@
 .profile-experiment p{margin:0;line-height:1.82}
 .profile-experiment small{display:block;margin-top:5px;color:#6c6364}
 
+.artist-context{margin-top:26px;padding-top:22px;border-top:1px solid var(--line);font-size:.88rem}
+.artist-context .eyebrow{margin-bottom:6px}
+.artist-context>h3{font-size:1.15rem;margin-bottom:18px}
+.profile-overview h4,.profile-related h4,.artist-card h4{font-size:.88rem;color:#765258;margin:18px 0 6px}
+.profile-overview p{line-height:1.85;margin-bottom:14px}
+.track-card .profile-sections h4{margin:16px 0 6px}
+.profile-sections small{display:block;margin-top:7px;font-size:.76rem}
+.profile-related{margin-top:20px}
+.profile-related dl{margin:0}
+.profile-related dl>div{padding:10px 0;border-bottom:1px solid var(--line)}
+.profile-related dt{font-weight:700;line-height:1.6}
+.profile-related dd{margin:4px 0 0;line-height:1.8;color:#51474e}
+.profile-sources{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:15px;font-size:.75rem;overflow-wrap:anywhere}
+.profile-sources>span{color:var(--muted)}
+.artist-card{font-size:.91rem}
+.artist-card>h2{font-size:1.4rem;margin-bottom:18px}
+.artist-recordings-title{margin:24px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+
 .lesson-intro{padding:2px 0 4px;margin:0 0 15px}
 .lesson-intro h2{font-size:1.05rem;margin-bottom:8px}
 .lesson-intro p{font-size:.91rem;line-height:1.78;margin-bottom:8px}
